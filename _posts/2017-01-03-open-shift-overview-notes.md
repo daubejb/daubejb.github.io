@@ -31,7 +31,7 @@ OpenShift is how to leverage the four aforementioned
 
 OpenShift is downstream of OpenShift Origin
 
-Read more at: openshift.com/customers - for good case studies on usage
+Read more at: http://openshift.com/customers - for good case studies on usage
 
 ## OpenShift benefits for developers
 
