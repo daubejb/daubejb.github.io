@@ -1,3 +1,11 @@
+---
+layout: default
+title:  Daily Lemon Honey Drink
+date:  2017-01-04 15:21:45 +0000
+categories: recipe dailyroutine
+tags: honey lemon recipe dailyroutine health
+---
+
 # Daily Lemon Honey Drink
 
 ## Introduction
