@@ -13,12 +13,12 @@ I am constantly learning new things and wanted a place to openly take notes loca
 ## Install Jekyll
 
 In Terminal:
-```bash
+{% highlight bash %}
 1 pacman -S ruby
 2 gem update
 3 gem install jekyll
 4 jekyll new *your-site-name*
-```
+{% endhighlight %}
 The generated Jekyll directory will look like:
 
 Insert image here
