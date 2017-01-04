@@ -2,7 +2,8 @@
 layout: default
 title:  OpenShift Overview
 date:   2016-01-03 14:22:59 +0000
-categories: jekyll update
+categories: notes
+tags: notes training openshift
 ---
 
 # OpenShift Overview
