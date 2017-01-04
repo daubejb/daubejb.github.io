@@ -40,7 +40,7 @@ Insert image here
 
 1. **Navigate** to the previously created *your-site-name* directory
 In Terminal:
-```bash
+{% highlight bash %}
 2 git init
 3 git add --all
 4 git commit -m "First commit"
@@ -49,4 +49,4 @@ In Terminal:
 7 git log origin/master
 8 git merge origin/master
 9 git push -u origin master (enter your user name and password for Github)
-```
+{% endhighlight %}
