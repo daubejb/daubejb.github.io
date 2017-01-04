@@ -2,7 +2,8 @@
 layout: default
 title:  How to configure Jekyll to GitHub Pages on Arch Linux
 date:  2016-12-23 08:33:45 +0000
-categories: jekyll update
+categories: howto
+tags: howto jekyll githubpages archlinux
 ---
 # How to configure Jekyll to GitHub Pages on Arch Linux
 
