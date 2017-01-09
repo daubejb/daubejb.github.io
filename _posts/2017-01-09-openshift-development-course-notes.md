@@ -52,7 +52,7 @@ tags: openshift developer notes docker redhat
 
 ![OpenShift Enterprise Software Stack]({{ site.baseurl}}/OpenShift_Software_Stack.svg){:class="img-responsive"}
 
-
+The main value OSE adds to Docker + Kubernetes is automated development workflows, so that applicaiton build and deployment happen inside the OSE cloud, following standard processes.  A developer does not need to know the low-level Docker details; OSE will take the application, package it, and start it as a container
 
 
 
