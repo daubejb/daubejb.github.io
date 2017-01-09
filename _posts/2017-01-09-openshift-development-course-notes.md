@@ -36,7 +36,7 @@ tages: openshift developer notes docker
 - **docker run** - create a new container and start a process inside the new container
 
 {% highlight bash %}
-\# docker run openshift/hello-openshift
+# docker run openshift/hello-openshift
 {% endhighlight %}
 
 - **docker ps** - list running containers
