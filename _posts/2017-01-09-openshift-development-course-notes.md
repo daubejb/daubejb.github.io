@@ -17,3 +17,20 @@ tages: openshift developer notes docker
 - Docker also provides a standard container image format, which is actually a tar file (libraries, commands, and working derictories, plus metadata describing the image itself)
 - Docker formatted container images, or simply container images, are immutable.
 - Container images are layered:  A complex image can be built by stacking a base OS image under an app server image and then under app-specific binaries and libraries
+- Docker formatted container images also provides a standard HTTP-based protocol for accessing image registires
+- Image Registries are similar to yum / dnf / pacman repositories, but hosting container images instead of RPM package files.
+- Any organization can host its own public or private registry for sharing container images
+
+## Managing Containers with Docker Commands
+
+- Docker runs as a system daemon that accepts requests through HTTP using a REST API
+- To check if the Docker daemon is running, use **systemctl status docker**
+- **docker images** - displays a list of Repository, Tag, Image ID, Created, Virtual Size
+- **docker pull** - downloads images
+- **image name syntax** - [registry_name/]**image_name**[:tag]
+- **docker search** - search for images on known Red Hat container registries
+- **docker load** - load an image from a tar file in the local files system to tht local Docker daemon
+- **docker save** - save an image available from the local Docker daemon as a tar file in the local file system
+- **docker rmi** - delete an image so it is no longer available from the local Docker daemon
+- **docker tag** - add a tag to an image available from the local Docker daemon
+
