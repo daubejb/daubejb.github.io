@@ -2,8 +2,8 @@
 layout: default
 title: "OpenShift Developer Notes"
 date:   2017-01-09 10:55:59 +0000
-categories: openshift developer notes
-tages: openshift developer notes docker
+categories: openshift developer notes redhat
+tags: openshift developer notes docker redhat
 ---
 # Red Hat OpenShift Developer Notes
 
@@ -45,5 +45,12 @@ tages: openshift developer notes docker
 - **docker logs** - show the container standard output.  It is expected that containerized applications send all their logs to standard output
 - **docker exec** - start an additional process inside a running container
 - **docker** - without any arguments, shows all docker commands and a brief description for each one
+
+## OpenShift Enterprise by Red Hat Architecture
+
+- OpenShift Enterprise is a set of microservices built over Red Hat Enterprise Linux, OSE adds PaaS capabilities over Atomic like remote management, multitenancy, increased security, application life-cycle management, and self-service interfaces for developers
+
+
+
 
 
