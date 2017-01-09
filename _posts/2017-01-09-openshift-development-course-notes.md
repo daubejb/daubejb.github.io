@@ -33,4 +33,17 @@ tages: openshift developer notes docker
 - **docker save** - save an image available from the local Docker daemon as a tar file in the local file system
 - **docker rmi** - delete an image so it is no longer available from the local Docker daemon
 - **docker tag** - add a tag to an image available from the local Docker daemon
+- **docker run** - create a new container and start a process inside the new container
+
+{% highlight bash %}
+\# docker run openshift/hello-openshift
+{% endhighlight %}
+
+- **docker ps** - list running containers
+- **docker stop** - stop a running container
+- **docker rm** - remove a stopped container, discarding its state a filesystem
+- **docker logs** - show the container standard output.  It is expected that containerized applications send all their logs to standard output
+- **docker exec** - start an additional process inside a running container
+- **docker** - without any arguments, shows all docker commands and a brief description for each one
+
 
