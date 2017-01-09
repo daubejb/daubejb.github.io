@@ -50,6 +50,7 @@ tags: openshift developer notes docker redhat
 
 - OpenShift Enterprise is a set of microservices built over Red Hat Enterprise Linux, OSE adds PaaS capabilities over Atomic like remote management, multitenancy, increased security, application life-cycle management, and self-service interfaces for developers
 
+![OpenShift Enterprise 3 software stack](https://github.com/daubejb/daubejb.github.io/OpenShift_Software_Stack.svg)
 
 
 
