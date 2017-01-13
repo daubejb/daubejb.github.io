@@ -78,10 +78,18 @@ cd project-name
 python manage.py startapp app-name
 {% endhighlight %}
 
-### **Create a Unit Test
+### **Create** a Unit Test
 {% highlight bash linenos %}
 vim app-name/tests.py
 {% endhighlight %}
+
+### Django's MVC, URLs and View Functions
+
+Django's main job is to do something when a user asks for a URL.  Django's workflow:
+
+1. HTTP *request* comes in for a URL
+2. Django's rules decide which *view* function handles the request (*resolving* the URL)
+3. View function processes the request and returns an HTTP *response*
 
 
 
