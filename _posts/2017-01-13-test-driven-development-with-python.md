@@ -102,17 +102,17 @@ Django uses a file *urls.py* to define how URLs map to view functions --- locate
 ## Useful Commands and Concepts
 
 ### Run the Django dev server
-{% highlight bash linenos %}
+{% highlight bash %}
 python manage.py runserver
 {% endhighlight %}
 
 ### Run the functional tests
-{% highlight bash linenos %}
+{% highlight bash %}
 python functional_tests.py
 {% endhighlight %}
 
 ### Running the unit tests
-{% highlight bash linenos %}
+{% highlight bash %}
 python manage.py test
 {% endhighlight %}
 
