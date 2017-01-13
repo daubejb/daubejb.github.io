@@ -32,8 +32,9 @@ mkvirtualenv --python=python3 environment-name
 3. **Activate** the environment
 
 {% highlight bash %}
-workon super lists
+workon environment-name
 {% endhighlight %}
+  - to deactivate, $ deactivate
 
 4. **Check** which Python
 
@@ -47,6 +48,31 @@ python --version
 {% highlight bash %}
 pip install "django<1.11" "selenium<3"
 {% endhighlight %}
+
+## Getting Django Up and Running
+
+1. **Create** Project and Start Server
+
+{% highlight bash linenos %}
+django-admin.py startproject project-name
+cd project-name
+python manage.py runserver
+{% endhighlight %}
+
+2. **Start** a Git Repository
+
+{% highlight bash linenos %}
+cd project-name
+git init .
+echo "db.sqlite3" >> .gitignore
+echo "__pycache__" >> .gitignore
+echo "\*.pyc" >> .gitignore
+git status
+git add --all
+git commit -a
+{% endhighlight %}
+
+
 
 
 
