@@ -72,6 +72,20 @@ git add --all
 git commit -a
 {% endhighlight %}
 
+### **Create** an Application
+{% highlight bash linenos %}
+cd project-name
+python manage.py startapp app-name
+{% endhighlight %}
+
+### **Create a Unit Test
+{% highlight bash linenos %}
+vim app-name/tests.py
+{% endhighlight %}
+
+
+
+
 
 
 
