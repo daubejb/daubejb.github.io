@@ -15,4 +15,38 @@ by Harry Percival
 
 ## Setting up the virtualenv
 
-``` bash
+1. **Install** virtualenv
+
+{% highlight bash linenos %}
+pip install --user virtualenvwrapper
+echo "source virtualenvwrapper.sh" >> ~/.bashrc
+source ~/.bashrc
+{% endhighlight %}
+
+2. **Create** a virtualenv *called environment-name*
+
+{% highlight bash %}
+mkvirtualenv --python=python3 environment-name
+{% endhighlight %}
+
+3. **Activate** the environment
+
+{% highlight bash %}
+workon super lists
+{% endhighlight %}
+
+4. **Check** which Python
+
+{% highlight bash linenos %}
+which python
+python --version
+{% endhighlight %}
+
+5. **Install** Django and Selenium
+
+{% highlight bash %}
+pip install "django<1.11" "selenium<3"
+{% endhighlight %}
+
+
+
