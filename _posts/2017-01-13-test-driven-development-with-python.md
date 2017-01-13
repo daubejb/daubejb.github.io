@@ -7,6 +7,8 @@ tags: notes development learning python selenium django testdrivendevelopment
 ---
 # Test Driven Development with Python
 
+My notes from reading the book [Test Driven Development with Python](http://www.obeythetestinggoat.com/pages/book.html)
+
 by Harry Percival
 
 
@@ -83,7 +85,7 @@ python manage.py startapp app-name
 vim app-name/tests.py
 {% endhighlight %}
 
-### Django's MVC, URLs and View Functions
+## Django's MVC, URLs and View Functions
 
 Django's main job is to do something when a user asks for a URL.  Django's workflow:
 
@@ -91,8 +93,11 @@ Django's main job is to do something when a user asks for a URL.  Django's workf
 2. Django's rules decide which *view* function handles the request (*resolving* the URL)
 3. View function processes the request and returns an HTTP *response*
 
+### urls.py
 
+Django uses a file *urls.py* to define how URLs map to view functions --- located in project-name/project-name folder
 
+- **Add** url(r'^$', views.home_page, name='home'); to urls.py
 
 
 
