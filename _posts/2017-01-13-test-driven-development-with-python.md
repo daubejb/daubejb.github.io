@@ -99,6 +99,29 @@ Django uses a file *urls.py* to define how URLs map to view functions --- locate
 
 - **Add** url(r'^$', views.home_page, name='home'); to urls.py
 
+## Useful Commands and Concepts
+
+### Run the Django dev server
+{% highlight bash linenos %}
+python manage.py runserver
+{% endhighlight %}
+
+### Run the functional tests
+{% highlight bash linenos %}
+python functional_tests.py
+{% endhighlight %}
+
+### Running the unit tests
+{% highlight bash linenos %}
+python manage.py test
+{% endhighlight %}
+
+### The unit-test/code cycle
+
+1. Run the unit tests in the terminal.
+2. Make a minimal code change in the editor.
+3. Repeat!
+
 
 
 
