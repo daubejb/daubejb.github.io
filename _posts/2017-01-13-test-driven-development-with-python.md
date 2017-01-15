@@ -135,6 +135,13 @@ Django requires all applications to be registered within the INSTALLED_APPS defi
 
 ![TDD Process]({{ site.baseurl}}/TDD_process_with_functional_and_unit_tests.png){:class="img-responsive"}
 
+## Django ORM
+
+An *Object-Relational Mapper* (ORM) is a layer of abstraction for data stored in a database with tables, rows, and
+columns.  It lets us work with databases using familiar object-oriented metaphors which work well with code.  Classes map
+to database tables, attributes map to columns, and an individual instance of a class represents a row of data in the
+database
+
 ## Random Notes from Book
 
 1. only methods that begin with test\_ will get run as tests, other methods can be used for other purposes
