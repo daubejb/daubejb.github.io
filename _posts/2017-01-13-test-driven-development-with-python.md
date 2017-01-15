@@ -122,7 +122,14 @@ python manage.py test
 2. Make a minimal code change in the editor.
 3. Repeat!
 
+## "Don't Test Constants Rule, and Templates
 
+Unit tests are about testing logic, flow control, and configuration
+
+Templates are a very powerful feature of Django.  Strength consists of substituting Python variables
+HTML text
+
+Django requires all applications to be registered within the INSTALLED_APPS definition inside settings.py
 
 
 
