@@ -135,4 +135,7 @@ Django requires all applications to be registered within the INSTALLED_APPS defi
 
 ![TDD Process]({{ site.baseurl}}/TDD_process_with_functional_and_unit_tests.png){:class="img-responsive"}
 
+## Random Notes from Book
+
+1. only methods that begin with test\_ will get run as tests, other methods can be used for other purposes
 
