@@ -122,7 +122,7 @@ python manage.py test
 2. Make a minimal code change in the editor.
 3. Repeat!
 
-## "Don't Test Constants Rule, and Templates
+### Don't Test Constants Rule, and Templates
 
 Unit tests are about testing logic, flow control, and configuration
 
@@ -131,5 +131,8 @@ HTML text
 
 Django requires all applications to be registered within the INSTALLED_APPS definition inside settings.py
 
+## TDD Process
+
+![TDD Process]({{ site.baseurl}}/TDD_process_with_functional_and_unit_tests.png){:class="img-responsive"}
 
 
