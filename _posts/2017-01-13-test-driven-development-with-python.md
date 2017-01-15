@@ -11,6 +11,7 @@ My notes from reading the book [Test Driven Development with Python](http://www.
 
 by Harry Percival
 
+## JEFF YOU STOPPED @ Rendering Items in the Template @ chapter_05.html
 
 > Functional tests should help you build an applicaiton with the right functionality, and guarantee you never
 > accidentally break it.  Unit tests should help you to write code that's clean and bug free.
@@ -141,6 +142,15 @@ An *Object-Relational Mapper* (ORM) is a layer of abstraction for data stored in
 columns.  It lets us work with databases using familiar object-oriented metaphors which work well with code.  Classes map
 to database tables, attributes map to columns, and an individual instance of a class represents a row of data in the
 database
+
+## Database Migration
+
+In Django, the ORM's job is to model the database, but there's a second system that's in charge of building the database
+called *migrations*.  Its job is to add and remove tables and columns, based on changes you make to *models.py*
+
+### How to build view a first database migration
+- $ python manage.py makemigrations
+- $ ls app-name/migrations
 
 ## Random Notes from Book
 
