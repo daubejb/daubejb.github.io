@@ -107,12 +107,12 @@ python manage.py runserver
 
 ### Run the functional tests
 {% highlight bash %}
-python functional_tests.py
+python manage.py test functional_tests
 {% endhighlight %}
 
 ### Running the unit tests
 {% highlight bash %}
-python manage.py test
+python manage.py test app-name
 {% endhighlight %}
 
 ### The unit-test/code cycle
