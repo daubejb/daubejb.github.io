@@ -4,7 +4,7 @@
 
 1. Create a Live USB drive, instructions [Fedoraproject.org](https://fedoraproject.org/wiki/How_to_create_and_use_Live_USB)
 
-## Steps
+## Fedora Installations Steps
 
 1. **Enter** BIOS and make UEFI bootable --- clarify this
 2. **Insert** USB Drive in computer
@@ -15,6 +15,15 @@
 7. **Follow** the prompts on the screen
 8. **Create** both a SUDO account and a User account during the installation wizard
 9. **Re-boot** the computer when the wizard instructs
-10. **Click** the Super-Key then type Terminal and press enter to launch a Terminal instance
 
-11. $ sudo dnf update
+## Update Fedora
+
+1. **Click** the Super-Key then type Terminal and press enter to launch a Terminal instance
+2. $ sudo dnf update
+
+## Install vim
+
+1. sudo dnf install vim
+2. key 'y' then press enter
+
+
