@@ -43,7 +43,7 @@ tbd
 
 ## Configure Firefox Kerb
 
-- see details
+- about:config
 
 ## Setup Fedy
 
@@ -55,5 +55,9 @@ tbd
 
 1. **Click** the Super-key then type fedy and press enter
 2. **Install** Google Chrome
+3. **Install** Adobe Flash
+4. **Setup**  Better font rendering
+5. **Setup** Fancy Bash prompt
+
 
 
