@@ -1,0 +1,20 @@
+# How to Install Fedora 25 on X1 Carbon 3rd Gen
+
+## Preparation
+
+1. Create a Live USB drive, instructions [Fedoraproject.org](https://fedoraproject.org/wiki/How_to_create_and_use_Live_USB)
+
+## Steps
+
+1. **Enter** BIOS and make UEFI bootable --- clarify this
+2. **Insert** USB Drive in computer
+3. **Shutdown** computer
+4. **Turn on** computer, and while it boots tap the f12 key until you enter boot mode
+5. **Select** the USB drive name to boot from that newly created Live USB
+6. **Press** Enter
+7. **Follow** the prompts on the screen
+8. **Create** both a SUDO account and a User account during the installation wizard
+9. **Re-boot** the computer when the wizard instructs
+10. **Click** the Super-Key then type Terminal and press enter to launch a Terminal instance
+
+11. $ sudo dnf update
