@@ -41,9 +41,19 @@ tbd
 4. Turn off natural scrolling
 
 
-## Install Google Chrome
+## Configure Firefox Kerb
+
+- see details
+
+## Setup Fedy
 
 1. **Click** the Super-key then type Terminal and press enter
-2. $ sudo dnf install google-chrome
+2. $ curl https://folkswithhats.org/installer | sudo bash
+3. this does not prompt for password, it loads a blank line and then enter your password
+
+## Install Apps with Fedy
+
+1. **Click** the Super-key then type fedy and press enter
+2. **Install** Google Chrome
 
 
