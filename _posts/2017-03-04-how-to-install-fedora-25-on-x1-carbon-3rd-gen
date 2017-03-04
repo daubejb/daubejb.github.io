@@ -26,4 +26,24 @@
 1. sudo dnf install vim
 2. key 'y' then press enter
 
+## Install Kerberos
+
+1. $ sudo dnf install krb5-workstation
+2. key 'y' then press enter
+
+tbd
+
+## Configure Trackpad
+
+1. **Click** the Super-key then type Settings and press enter
+2. **Select** Mouse & Touchpad
+3. Increase trackpad Speed to Max
+4. Turn off natural scrolling
+
+
+## Install Google Chrome
+
+1. **Click** the Super-key then type Terminal and press enter
+2. $ sudo dnf install google-chrome
+
 
