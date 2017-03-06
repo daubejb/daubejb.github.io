@@ -99,7 +99,7 @@ $ sudo dnf install i3 i3status dmenu i3lock xbacklight feh conky
 
 ## get compton, i3-gaps, rofi - https://copr.fedorainfracloud.org/coprsyaroslav/i3desktop/
 
-
+## install googlecl to provide command google
 
 
 
