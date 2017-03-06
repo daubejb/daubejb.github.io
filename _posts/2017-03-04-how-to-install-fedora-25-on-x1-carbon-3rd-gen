@@ -86,8 +86,7 @@ Extensions used:
 1. Navigate to [www.archimatetool.com/download](www.archimatetool.com/download)
 2. Download Archi
 3. Place Program folder in desired location (mine is ~/Programs/Archi/
-4. Create archimate-tool.desktop
-5. Create .desktop file to put application in the application menu
+4. Create archimate-tool.desktop to put application in the application menu.  See [https://developer.gnome.org/integration-guide/stable/desktop-files.html.en](https://developer.gnome.org/integration-guide/stable/desktop-files.html.en)
 6. See archimate-tool.desktop file
 
 
