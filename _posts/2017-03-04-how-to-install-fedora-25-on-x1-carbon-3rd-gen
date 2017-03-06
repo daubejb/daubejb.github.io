@@ -62,6 +62,34 @@ tbd
 1. **Navigation** to https://www.google.com/chrome/browser/desktop/
 2. **Open** with Software Installer
 
+## Install Visual Studio Code
+
+1. **Navigate** to https://www.google.com/chrome/browser/desktop/
+
+Extensions used:
+
+1. Auto-Open Markdown Preview
+2. Copy Markdown as HTML
+3. Output Colorizer
+4. Vim
+5. Google Search
+6. Material-theme
+7. Debugger for Chrome
+8. Python
+9. HTML Snippets
+10. Trailing Spaces
+11. Hacker Style Themes
+12. Start any shell
+
+## Install Archimate Modeling Tool
+
+1. Navigate to [www.archimatetool.com/download](www.archimatetool.com/download)
+2. Download Archi
+3. Place Program folder in desired location (mine is ~/Programs/Archi/
+4. Create archimate-tool.desktop
+5. Create .desktop file to put application in the application menu
+6. See archimate-tool.desktop file
+
 
 
 
