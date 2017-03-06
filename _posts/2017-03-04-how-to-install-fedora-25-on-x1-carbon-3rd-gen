@@ -89,6 +89,7 @@ Extensions used:
 4. Create archimate-tool.desktop to put application in the application menu.  See [https://developer.gnome.org/integration-guide/stable/desktop-files.html.en](https://developer.gnome.org/integration-guide/stable/desktop-files.html.en)
 6. See archimate-tool.desktop file
 
+## Install rxvt-unicode-256color.x86_64
 
 
 
