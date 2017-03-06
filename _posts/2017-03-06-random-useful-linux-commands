@@ -3,4 +3,8 @@
 ## List of Commands
 1. updatedb:  $ sudo updatedb - repopulate locatable stuff with locate command
 2. xprop:  $ xprop - displays window manager information for whatever you click on after running the command
+3. xev: $ xev - displays a window that then captures keystrokes and records attributes for use in scripts / key-mappings
+4. amixer: $ amixer - sound and recording
+5. xbacklight: $ xbacklight - brightness of screen
+
  
