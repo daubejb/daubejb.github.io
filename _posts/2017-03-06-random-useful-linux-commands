@@ -1,0 +1,6 @@
+# Random Useful Linux Commands
+
+## List of Commands
+1. updatedb:  $ sudo updatedb - repopulate locatable stuff with locate command
+2. xprop:  $ xprop - displays window manager information for whatever you click on after running the command
+ 
