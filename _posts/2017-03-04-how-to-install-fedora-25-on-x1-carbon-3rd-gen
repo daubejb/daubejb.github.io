@@ -103,4 +103,7 @@ $ sudo dnf install i3 i3status dmenu i3lock xbacklight feh conky
 
 ## install sudo dnf install py3status
 
+## install sudo dnf install fontawesome-fonts.....noarch
+
+
 
