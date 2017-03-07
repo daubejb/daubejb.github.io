@@ -108,6 +108,7 @@ $ sudo dnf install i3 i3status dmenu i3lock xbacklight feh conky
 ## install sudo dnf install google-droid-sans-mono-fonts.noarch
 ## install sudo dnf install gnome-characters.x86_64
 ## install sudo dnf install arandr
+## install sudo dnf install scrot
 
 
 
