@@ -111,6 +111,8 @@ $ sudo dnf install i3 i3status dmenu i3lock xbacklight feh conky
 ## install sudo dnf install scrot
 ## install sudo dnf install gimp
 ## install sudo dnf install inkscape
+## install strace
+## install sudo dnf install ncurses-term
 
 
 
