@@ -6,5 +6,6 @@
 3. xev: $ xev - displays a window that then captures keystrokes and records attributes for use in scripts / key-mappings
 4. amixer: $ amixer - sound and recording
 5. xbacklight: $ xbacklight - brightness of screen
+6. xmodmap:
 
  
