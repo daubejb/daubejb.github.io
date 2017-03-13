@@ -1,3 +1,11 @@
+---
+layout: default
+title:  "The Linux Command Line: A complete Introduction"
+date:   2017-03-11 16:43:59 +0000
+categories: linux development
+---
+Hello world
+
 # The Linux Command Line: A complete Introduction
 
 ## General Definitions
