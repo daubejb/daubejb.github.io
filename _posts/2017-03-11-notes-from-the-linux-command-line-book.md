@@ -6,8 +6,15 @@ categories: linux development
 ---
 
 # The Linux Command Line: A complete Introduction
+by William E. Shotts, JR.
 
-## General Definitions
+---
+
+I just read this book and here are the notes that I took while reading: 
+
+---
+
+## General Definitions and Notes
 
 1. **Shell** - is a program that takes keyboard commands and passes them to the operating system to carry out
 
@@ -154,6 +161,16 @@ categories: linux development
 56. **wc** - displays the number of lines, words, and bytes contained in a file
 
 57. **grep** - used to find text patterns within files ( *-i* will ignore case) - *global regular expression print*
+
+	- Options:
+		- i - Ignore case
+		- v - Invert match
+		- c - print the number of matches (count)
+		- l - print the name of the file with the match
+		- L - print name of file with no match
+		- n - Prefix each matching line with the line number in the file
+		- h - suppress the output filenames of multifile searches
+		
 
 58. **head** - shows the first 10 lines of a file, can be adjusted with *-n*
 
@@ -309,19 +326,41 @@ categories: linux development
 
 121. **rsync** - remote file and directory synchronization
 
-122. **Regular Expressions** - symbolic notations used to identify patterns in text
+122. **Regular Expressions** - symbolic notations used to identify patterns in text:
 
+	- **.** - any single character
+	- **^** - anchor for search string being found at beginning of line
+	- **$** - anchor for search string being found at the end of the line
+	- **[]** - brackets are used to for expressions, character expansion
+		- ^ - negation
+		- \- - character range
 
+123. **locale** - display the localization settings
 
+124. **sort** - Sort lines of text files
 
+125. **aspell** - Interactive Spell Checker
 
+126. **shell script** - a file containing a series of commands
 
-
-
-
-
-
-
-
+127. **here document or here script** - is an additional form of I/O redirection in which we embed a body of text into our script and feed it into the standard input of a command
+	- example is using cat << \_EOF\_ instead of echo, so that you can use quotes freely
+	- here with <<\- ignores leading tab characters
 	
- 
+128. **shell functions** - are "miniscripts" that are located inside other scripts and can act as autonomous programs
+
+129. **$?** - the *exit status* of the last performed command
+
+130. ** test expression (or [ expression ] )** - evaluations
+
+131. **string1 =~ regex** - true if string matches regex
+
+132. ** (( )) ** - is designed for integers
+
+133. **Combining Expressions** 
+
+	- AND test uses -a, [[]] and (()) use &&
+	- OR test uses -o, [[]] and (()) use ||
+	- NOT both use !
+
+134. **read** - read a single line of standard input
