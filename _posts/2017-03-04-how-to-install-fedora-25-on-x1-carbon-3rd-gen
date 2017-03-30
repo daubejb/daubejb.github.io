@@ -18,6 +18,10 @@
 
 ## Update Fedora
 
+1. su
+2. gedit /etc/dnf/dnf.conf
+3. add this line to bottom of file:  fastestmirror=True
+
 1. **Click** the Super-Key then type Terminal and press enter to launch a Terminal instance
 2. $ sudo dnf update
 
