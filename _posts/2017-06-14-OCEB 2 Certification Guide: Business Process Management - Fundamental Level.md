@@ -140,6 +140,22 @@ categories: oceb businessprocess certification
 32. Scheduling and resouce planning - enables you to estimate whether projects can be completed within the timeframe required and whether the required resources are actually available
 33. Network plan - split a project into tasks, put tasks into sequence, earliest start time, minimum run time, earliest and latest stop time. - helps establish critical path
 
+## Chapter 3
+
+1. A very important, but not inherent, characteristic of a business process is the ability to be changed easily
+2. The elementary steps of a process - also have characteristics such as executing roles, necessary resources, data that is required, duration, business rules that must be taken into account, and a brief description of the activity
+3. The goal of process descovery is to detect the implicit knowledge about as-is processes and make it explicit
+4. Three levels of business process modeling:
+  - descriptive modeling
+  - analytical modeling
+  - executable modeling
+5. Keywords:
+  - Business process
+  - Business process identification
+  - business process properties
+  - as-is process
+  - to-be process
+
 
 
   
