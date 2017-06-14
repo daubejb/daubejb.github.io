@@ -129,7 +129,14 @@ categories: oceb businessprocess certification
 24. Fixed costs - are costs that are constant within a specific period of time and are independent of the production volume or quantity of sales
 25.  Variable costs - are costs that vary if the production volume or quantity of sales changes
 26.  Overhead costs - are costs that can be allocated only indirectly to a cost unit (prouduct, service)
-  
+27. Working capital = current assets - current liabilities (1 year)
+28. Return on Investment (ROI) = Earning / Capital employed
+29. Break even analysis - period of time or quantity where sales revenues exceed production costs (when profit starts)
+  - break-even point = Fixed costs / Sales price - Variable costs per unit
+30. Where the break-even analysis enables the assessment of different scenarios with regard to sales revenues and expenses, the crossover analysis uses the same principle to compare different scenarios with regard to fixed and variable costs.
+  - low fixed costs, high variable costs, versus
+  - high fixed costs, low variable costs
+31. Decision tree - each fork is connected with probabilities of occurence
 
 
 
