@@ -86,6 +86,17 @@ categories: oceb businessprocess certification
   - Substitute products - threats of substitute products and services
   - Consumers / buyers - bargaining power
   all point at Rivalry among competitors
+13. STEP = PEST - an acronym for environmental factors to be considered:
+  - Sociological/demographic factors
+    - values, lifestyle, demographic influencers, income distribution, education, population growth, safety
+  - Technological factors
+    - r+d, new products and processes, product lifecycles, public research expenditure
+  - Economic factors
+    - economic growth, inflations, interest rates, exchange rates, taxation, unemployment, business cycles, availability of resources
+  - Political factors
+    - competition with authorities, legislation, political stability, governance principles, trade barriers, safety directives, subsidies
+
+  
 
 
 
