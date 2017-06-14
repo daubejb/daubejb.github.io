@@ -266,4 +266,14 @@ categories: oceb businessprocess certification
   - Analysis of variability because uncontrolled variances are the main cause for quality problems
   - Management by fact because quality improvement projects should work on a systematic data basis about the process
   - Quality improvement is a never ending process
+16. The specific techniques of TQM involve:
+  - Determine customer requirements
+  - Establish supplier relationships on a partnership basis
+  - Set up cross-functional teams for quality improvement
+17. Benefits of TQM include:
+  - faster response to market changes
+  - cross-functional communication and collaboration within the enterprise
+18. Downside of TQM:
+  - some functional capabilities must be doubled because they occur in multiple processes
+  - if functional org structure maintains, then the org becomes a more complex matrix
   
