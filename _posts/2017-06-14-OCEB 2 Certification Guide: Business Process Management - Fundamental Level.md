@@ -155,6 +155,23 @@ categories: oceb businessprocess certification
   - business process properties
   - as-is process
   - to-be process
+6. Imagination is more important than knowledge - Albert Einstein
+7. Business process characteristics:
+  - involve several actions, steps, and activities
+  - usually involve various organizationl units (departments, enterprises, etc.)
+  - are targeted
+  - basically describe an action, decision, and cooperation
+  - the result represents a value for an (internal or external) customer
+  Other critical characteristics of business processes:
+  - they describe how the enterprise ((or other organizational unit operates)
+  - actions can be assigned to organizational units or roles
+  - the more brances a business processes has, the more complex it is
+8. Multiple definitions of business process:
+  - Geary A. Rummler and Alan P. Brache - a series of steps designed to produce a product or service.  If the result is directly of benefit to the customer, it is a primary process; otherwise, it is a supporting process
+  - Martyn Ould - a coherent set of activities carried out by a collaborating group to achieve a goal
+  - Howard Smith and Peter Fingar - complex, distributed, and long-running
+  - Workflow Management Coalition (WfMC) - a set of one ore more linked procedures or activities which collectively realize a business objective or policy goal, normally within the context of an organizational structure defining functional roles and relationships
+  - OMG - in the Business Motivation Model standard (BMM), the business process is defined as an unit that implements strategies and tactics so that the enterprise achieves its goals
 
 
 
