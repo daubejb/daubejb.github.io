@@ -172,7 +172,11 @@ categories: oceb businessprocess certification
   - Howard Smith and Peter Fingar - complex, distributed, and long-running
   - Workflow Management Coalition (WfMC) - a set of one ore more linked procedures or activities which collectively realize a business objective or policy goal, normally within the context of an organizational structure defining functional roles and relationships
   - OMG - in the Business Motivation Model standard (BMM), the business process is defined as an unit that implements strategies and tactics so that the enterprise achieves its goals
-
+  - ALL of these defitions are similar in they describe how an enterprise works
+9. The number of branches is decisive, which make the process complex and unclear for the persons involved
+10. Active business process management - to ensure that an enterprise can successfully respond to changes, it must actively run a business process management (A critical aspect is that business processes are considered and handled as assets within the enterprise
+11. Processes are oriented towards roles not people
+12. Process steps are the activities executed by the roles.  Besides the sequence of steps, which is determined by the process, business rules must also be adhered to when they are executed.  These include, org policies and standards
 
 
   
