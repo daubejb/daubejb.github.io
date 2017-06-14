@@ -126,6 +126,9 @@ categories: oceb businessprocess certification
   - Executing (form a team, manage project execution, perform qa, inform)
   - Controlling ( monitor risks, report progress, initiate measures)
   - Closing (secure experiences, close contracts)
+24. Fixed costs - are costs that are constant within a specific period of time and are independent of the production volume or quantity of sales
+25.  Variable costs - are costs that vary if the production volume or quantity of sales changes
+26.  Overhead costs - are costs that can be allocated only indirectly to a cost unit (prouduct, service)
   
 
 
