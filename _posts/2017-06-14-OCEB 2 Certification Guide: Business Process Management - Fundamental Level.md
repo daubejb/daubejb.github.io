@@ -68,7 +68,24 @@ categories: oceb businessprocess certification
   - Support
   - Communication
   - Controlling
-9. 
+9. Strategy - is the means to an end
+10. Business Strategy Steps
+  - First, it analyzes the market environment
+  - Second, it divides the market into segments theoretically
+  - third, it analyses its strengths and weaknesses for each market segment separately
+  - fourth, this forms the basis for setting objectives and planning the measures to be taken
+11. After strategy has been developed, you should plan the personnel deployment by analyzing:
+  - Strategic vision of the enterprise
+  - Short-term and long-term goals
+  - Changes in the market that impact the enterprise
+  - Requirements with regard to personnel based on the strategic vision
+  - Possible opposition in the organization
+12. Porters Five Forces - framework that supports an enterprise in selecting a suitable strategy to gain a competitive advantage:
+  - Potential competitors - threats of new competitors / barriers to entry
+  - Suppliers - bargaining power
+  - Substitute products - threats of substitute products and services
+  - Consumers / buyers - bargaining power
+  all point at Rivalry among competitors
 
 
 
