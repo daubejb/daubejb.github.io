@@ -312,3 +312,9 @@ categories: oceb businessprocess certification
   - Enter partnerships
   - Value chains are the measure of competition, who has the best value chain to be able to offer customers a holistic solution
   - Change is the only constant
+29. A challenge in a process-focused organization is to effectively coordinate the functions involved in the process
+30. Daniel J. Madison lists several points on becoming a Process-Focused Organization
+  - Culture (shift from individual recognition to process excellence), errors are not considered made by a person, they are an opportunity to improve processes from the insights gained.  The values of the organization
+  - Concepts
+  - Structure
+  - Technology
