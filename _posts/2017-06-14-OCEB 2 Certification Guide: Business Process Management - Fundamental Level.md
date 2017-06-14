@@ -95,6 +95,30 @@ categories: oceb businessprocess certification
     - economic growth, inflations, interest rates, exchange rates, taxation, unemployment, business cycles, availability of resources
   - Political factors
     - competition with authorities, legislation, political stability, governance principles, trade barriers, safety directives, subsidies
+14, Market segmentation, niches
+15. SWOT analysis
+16. Why is marketing important for an expert in business process analysis? one of the most important business process types is the value chain.
+17. Marketing - is the market-oriented realization of enterprise goals and the alignment of the entire enterprise in the market
+18. Marketing - is a process in the economic and social structure which individuals and groups use to meet their requirements and request by generating, offering, and exchanging proudcts and other things of value
+19. Two types of marketing (proactive and reactive)
+20. Main process elements of marketing:
+  - market segmentation
+  - strategy development
+  - market research
+  - pricing
+  - placement
+  - value chain
+21. Value chain - every enterprise is a collection of activities that are performed to design, produce, market, deliver, and support its product.  All these activities can be represented in a value chain:
+  - primary activities
+    - inbound logistics
+    - operations
+    - outbound logistics
+    - marketing and sales
+    - services
+  - supporting activities
+    - firm infrastructure
+    - human resources management
+    - technology
 
   
 
