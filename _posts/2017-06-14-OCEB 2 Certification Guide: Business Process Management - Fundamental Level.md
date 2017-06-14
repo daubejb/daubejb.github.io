@@ -137,6 +137,8 @@ categories: oceb businessprocess certification
   - low fixed costs, high variable costs, versus
   - high fixed costs, low variable costs
 31. Decision tree - each fork is connected with probabilities of occurence
+32. Scheduling and resouce planning - enables you to estimate whether projects can be completed within the timeframe required and whether the required resources are actually available
+33. Network plan - split a project into tasks, put tasks into sequence, earliest start time, minimum run time, earliest and latest stop time. - helps establish critical path
 
 
 
