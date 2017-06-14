@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Hello World!"
+title:  "OCEB 2 Certification Guide: Business Process Management"
 date:   2016-12-22 16:43:59 +0000
 categories: oceb businessprocess certification
 ---
