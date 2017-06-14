@@ -192,6 +192,26 @@ categories: oceb businessprocess certification
   - Duration
   - Business rules that must be taken into account
   - brief description
-17.
+17. Goal - a targeted, desirable state (one goal shall be assigned to every business process)
+18. Business Process Descovery - the goal is to detect implicit knowledge about processes and make it explicit
+19. Basis - the foundation of knowledge about business process that can be improved upon
+20. Business Process Analysis - the purpose of BPA is to provide explict process knowledge.  It serves to discover weaknesses and enables actual/target comparisons
+21. Typical examples that require BPA:
+  - Diagnosing the root cause of a known process problem
+  - Finding unknown weaknesses and bottlenecks
+  - Creating standard processes for supply chain interactions, for instance, using SCOR
+  - Converging multiple parallel processes, performed by different departments, into a single enterprise-wide standard process
+  - Preparing for measure implementation, specifically to perform an analysis of the new measures on existing processes, for instacne, the applicaiton of new business rules
+  - Generating function requirements on an IT system
+  - Designing the business logic of a process that will be automated using commercial Business Process Management Suite (BPMS)
+22. BPA Process:
+  - Discover the as-is process
+  - Document the as-is process
+  - Analyze the as-is process
+  - Define the to-be process
+  - Develop te to-be process
+  - Introduce the to-be process
+  - Implement the to-be process
+  - Maintain the to-be process
 
   
