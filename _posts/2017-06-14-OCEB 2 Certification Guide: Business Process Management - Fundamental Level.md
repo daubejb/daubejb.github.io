@@ -259,5 +259,11 @@ categories: oceb businessprocess certification
 10. Side effect of functional focus (status quo) - is isolated optimization of individual process steps and not on the course of the entire process - leading to increased costs and undesireable results
 11. Its the business process management's task to define and implement processes, support performance measurements based on predefined process goals, and optimize processes
 12. It is important to know the process owner when you define and monitor the processes, so that processes can be oriented towards the customers and run optimally
-
+13. TQM is attributed to William Edwards Deming, Joseph Juran, and Kaoru Ishikawa in the 1940s --> really grew in 1980s pressured by Japan
+14. J. Richard hackmann and Ruth Wageman - The purpose of an organizaiton is to sustain itself so that it can contribute to the stability of the community, provide goods and services to customers and provide an environment for organization members to grow
+15. TQM is also a technique to run continuous quality improvement projects on a regular basis. Principles:
+  - Management by process because quality problems often arise there
+  - Analysis of variability because uncontrolled variances are the main cause for quality problems
+  - Management by fact because quality improvement projects should work on a systematic data basis about the process
+  - Quality improvement is a never ending process
   
