@@ -276,4 +276,14 @@ categories: oceb businessprocess certification
 18. Downside of TQM:
   - some functional capabilities must be doubled because they occur in multiple processes
   - if functional org structure maintains, then the org becomes a more complex matrix
-  
+19. In 1990s, the attention shifted from TQM to BPR
+20. Shift was initiated by an article by Thomas Davenport and James R. Short and an article by Michael Hammar
+21. Five-step methodology to achieve process redesign:
+  - Develop the business vision and the process objects
+  - Identify the business process to be redesigned
+  - Understand and measure the existing process
+  - Identify IT levers
+  - Design and build a prototype of new process
+  Assumption - IT is a key enabler of BPM
+  Assumption - Process improvement is oriented toward goals and not toward fixing local bottlenecks and other process weaknesses
+22. 
