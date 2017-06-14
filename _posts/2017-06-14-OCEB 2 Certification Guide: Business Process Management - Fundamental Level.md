@@ -119,7 +119,13 @@ categories: oceb businessprocess certification
     - firm infrastructure
     - human resources management
     - technology
-
+22. Project - is an undertaking with limited timeframes and budget to deliver several clearly defined results and is basically characterized by the uniqueness of conditions in their entirety (limited and unique)
+23. Project management - application of knowledge, skills, tools, and techniques on a set of activities to meet a specified objective:
+  - Initiation (charter, scope)
+  - Planning (plan, estimate effort duration and costs, plan resources, analyze risks)
+  - Executing (form a team, manage project execution, perform qa, inform)
+  - Controlling ( monitor risks, report progress, initiate measures)
+  - Closing (secure experiences, close contracts)
   
 
 
