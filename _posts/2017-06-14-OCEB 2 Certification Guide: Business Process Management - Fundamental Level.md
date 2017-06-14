@@ -7,6 +7,8 @@ categories: oceb businessprocess certification
 
 # Notes from - OCEB 2 Certification Guide: Business Process Management - Fundamental Level
 
+## Chapter 1
+
 1. BPM refers to both business process modeling and business process management
 2. Seven Major examination topics fall into three categories
   - The business itself
@@ -31,6 +33,26 @@ categories: oceb businessprocess certification
   - Business process modeling concepts (24%)
   - Business process modleing skills (16%)
   - Process quality, governance, and metrics frameworks (15%)
+  
+7. SpeedyCar - has set the goal to minimize employment of staff with innovative IT systems and thus, be able to offer unbeatable prices in the market.  Service is supposed to be considerably better and more apparant to customers, compared to competitors.
+
+## Chapter 2
+
+1. Appropriate communication with people from business departments is an essential success factor for BPM experts
+2. Manager:  The man who knows exactly what he cannot do, and finds the right persons to do it for him. - Philip Rosenthal
+3. Keywords:
+  - Management compentencies
+  - Business strategy
+  - Porter's five forces
+  - STEP analysis
+  - Market segmentation
+  - SWOT analysis
+  - Value chain
+  - Break-even analysis
+  - Crossover analysis
+  - Network plan
+ 
+
 
 
   
