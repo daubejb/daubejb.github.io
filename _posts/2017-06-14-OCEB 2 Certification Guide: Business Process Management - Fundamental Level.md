@@ -278,7 +278,7 @@ categories: oceb businessprocess certification
   - if functional org structure maintains, then the org becomes a more complex matrix
 19. In 1990s, the attention shifted from TQM to BPR
 20. Shift was initiated by an article by Thomas Davenport and James R. Short and an article by Michael Hammar
-21. Five-step methodology to achieve process redesign:
+21. FIRST APPROACH Five-step methodology to achieve process redesign:
   - Develop the business vision and the process objects
   - Identify the business process to be redesigned
   - Understand and measure the existing process
@@ -286,4 +286,29 @@ categories: oceb businessprocess certification
   - Design and build a prototype of new process
   Assumption - IT is a key enabler of BPM
   Assumption - Process improvement is oriented toward goals and not toward fixing local bottlenecks and other process weaknesses
-22. 
+22. SECOND APPROACH by Michael Hammer - proposes develop the process from scratch (Leaps instead of Steps)
+23. In the mid 1990s, due to TQM and BPR - busines process management was labeled as an explicit discipline for the first time
+24. It is a management approach that creates the environment necessary to implement improvement methodologies, such as Six Sigma, TQM, or BPR
+25. A common definition comes from Mary J. Benner and Michael L. Tushmann: business process management, based on a view of an organization as a system of interlinked processes, involves concerted efforts to map, improve, and adhere to oranizational processes
+26. The ultimate goal of BPM was specified by Michael Hammer, who defines it as the improvement of products and services using structured service optimization based on systematic design and management of business processes
+27. James F Chang defines the term BPM with four principles and eight tools/practices:
+  - Principle 1: Processes are assets
+  - Principle 2: Processes should be managed explicitly (measuring, monitoring, controlling, and analyzing)
+  - Principle 3: Processes should be continuously improved
+  - Principle 4: IT is an essential enabler
+  - Practice 1: Establish process-focused organization structures
+  - Practice 2: Nominate process owners - responsible for the success of their processes
+  - Practice 3: Bottom Up Support - Upper management must support and promote BPM.  The process is improved from the bottom up
+  - Practice 4: Establish IT systems to monitor, control, analyze, and improve processes
+  - Practice 5: Collaborate with busienss partners that are involved in common cross-organizational business processes
+  - Practice 6: Training and improvement, train employees regularly, and continuously improve 
+  - Practice 7: Combine process improvement with bonus payments and awards
+  - Practice 8: Utilize both incremental process improvement measures (Six Sigma) and more radical approaches (BPR)
+28. Pressure on enterprises, Howard Smith and Peter Fingar - seven trends:
+  - The customer is no longer a king but a dictator
+  - Mass production makes way for mass customization
+  - Customers demand holistic solutions
+  - Boundaries between industries become blurred
+  - Enter partnerships
+  - Value chains are the measure of competition, who has the best value chain to be able to offer customers a holistic solution
+  - Change is the only constant
