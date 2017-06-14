@@ -213,5 +213,19 @@ categories: oceb businessprocess certification
   - Introduce the to-be process
   - Implement the to-be process
   - Maintain the to-be process
+  - 3 Process roles involved:
+    - The sponsor who sets up the BPA project assumes responsibility for it and specifies goals
+    - The SME who provide the process content
+    - The analysts who control and implement the methodologies
+   - 3 main ways to approache the process discovery
+    Centralized vs. distributed approach
+    - Centralized - workshops, watch out for overly vocal people, difficult to get everyones time, group think
+    - Distributed - more democratic, equal opinions, analyst solves inconsistencies, reviewed at end by all
+    Top down vs. bottom up
+    - Top-down - classic, start with enterprise wide. disadvantage is that process steps that do not fit in the specified hiearchy easily remain undiscovered
+    - Bottom-up - starts with detailed activities, SMEs report about their steps, high detail is blessing and curse
+    Structured vs. free form approach
+    - Structured - SMEs answer predefined questions, leads to consistency, possibly incomplete
+    - Free from - SMEs report to analyst without predefined questions
 
   
