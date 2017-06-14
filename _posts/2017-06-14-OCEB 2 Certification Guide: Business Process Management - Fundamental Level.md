@@ -177,6 +177,21 @@ categories: oceb businessprocess certification
 10. Active business process management - to ensure that an enterprise can successfully respond to changes, it must actively run a business process management (A critical aspect is that business processes are considered and handled as assets within the enterprise
 11. Processes are oriented towards roles not people
 12. Process steps are the activities executed by the roles.  Besides the sequence of steps, which is determined by the process, business rules must also be adhered to when they are executed.  These include, org policies and standards
-
+13. Process topology -the explicit processes steps and their interelations
+14. Horizontal versus vertical - processes are typically depicted at the horizontal level; however, you can view vertically the process hierarchy, which shows that the processes can be part of a superordinate process.
+15. Processes are typically focused on flowcharts; however, there is additional information:
+  - Process owner
+  - Goals of the business
+  - customer who benefits
+  - stakeholders who can provide important information
+  - brief description
+16. The activities - the elementary steps of a process - also have characteristics, such as:
+  - Executing role ("work unit")
+  - Necessary resources
+  - Data that is required or generated
+  - Duration
+  - Business rules that must be taken into account
+  - brief description
+17.
 
   
