@@ -227,5 +227,11 @@ categories: oceb businessprocess certification
     Structured vs. free form approach
     - Structured - SMEs answer predefined questions, leads to consistency, possibly incomplete
     - Free from - SMEs report to analyst without predefined questions
-
+23. Bruce Silver provides three business process levels:
+  - Descriptive: maps business processes at a high level of detail, describes best case, provides overview of process, org units involved, the goal is to communicate business processes across organization units, for example, to upper management
+  - Analytical: higher level of detail than descriptive, all cases, handling of events, used to analyze effectiveness of process, level of detail IT departments require to create an implementation that automates
+  - Executable: Can directly be used to automate the business process
+24. Private business processes - are internal flows that are specific to an organization
+25. Public business processes - describe the interaction between a private business process and one or more parties involved.  Only thoses process steps that are involved in the interaction of the private process are illustrated.  The process steps of the interaction partners are not described
+  
   
