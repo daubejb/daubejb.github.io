@@ -233,5 +233,14 @@ categories: oceb businessprocess certification
   - Executable: Can directly be used to automate the business process
 24. Private business processes - are internal flows that are specific to an organization
 25. Public business processes - describe the interaction between a private business process and one or more parties involved.  Only thoses process steps that are involved in the interaction of the private process are illustrated.  The process steps of the interaction partners are not described
+26. Collaborative business process - shows an interaction, just like the public business processes.  However, you cna now also include the detailed process steps of the parties involved and the exact sequence of information exchange
+27. To design business process models meaningfully for others, use these modeling principles:
+  - If there are abstraction levels, they should follow a purpose
+  - Reality is chaotic
+  - A diagram must have a clear meaning
+  - Process diagrams are aimed at people and show what they do
+  - On the one hand, they show what they should do and, on the other hand, what they actually do
+  - People work in functions, but perform business processes
+  - It is about what th epeople actually do, and not why they do it
   
   
