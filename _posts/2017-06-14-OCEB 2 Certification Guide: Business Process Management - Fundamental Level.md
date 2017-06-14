@@ -51,7 +51,24 @@ categories: oceb businessprocess certification
   - Break-even analysis
   - Crossover analysis
   - Network plan
- 
+
+4. Business functions are not departments because a departement can execute multiple functions; In modern and rather process-oriented enterprises, however, a function is frequently mapped onto multiple organization units
+
+5. Core vs Support functions - depending on whether a business function directly serves the object of the enterprise or not, you can distinguish core functions or support functions
+
+6. Manager - a person who organizes, plans, supports, defines, and assesses the work of others
+
+7. Business administration - understood as controllling and organizing business activities
+
+8. Seven Manager Competencies:
+  - Goal setting
+  - Planning
+  - Decision-making
+  - Delegation
+  - Support
+  - Communication
+  - Controlling
+9. 
 
 
 
