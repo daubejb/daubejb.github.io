@@ -7,7 +7,7 @@ categories: oceb businessprocess certification
 
 # Notes from - OCEB 2 Certification Guide: Business Process Management - Fundamental Level
 
-## Chapter 1
+## Chapter 1 - Getting Started
 
 1. BPM refers to both business process modeling and business process management
 2. Seven Major examination topics fall into three categories
@@ -36,7 +36,7 @@ categories: oceb businessprocess certification
   
 7. SpeedyCar - has set the goal to minimize employment of staff with innovative IT systems and thus, be able to offer unbeatable prices in the market.  Service is supposed to be considerably better and more apparant to customers, compared to competitors.
 
-## Chapter 2
+## Chapter 2 - Basic Principles of Business Management
 
 1. Appropriate communication with people from business departments is an essential success factor for BPM experts
 2. Manager:  The man who knows exactly what he cannot do, and finds the right persons to do it for him. - Philip Rosenthal
@@ -140,7 +140,7 @@ categories: oceb businessprocess certification
 32. Scheduling and resouce planning - enables you to estimate whether projects can be completed within the timeframe required and whether the required resources are actually available
 33. Network plan - split a project into tasks, put tasks into sequence, earliest start time, minimum run time, earliest and latest stop time. - helps establish critical path
 
-## Chapter 3
+## Chapter 3 - Basic Principles of Business Processes
 
 1. A very important, but not inherent, characteristic of a business process is the ability to be changed easily
 2. The elementary steps of a process - also have characteristics such as executing roles, necessary resources, data that is required, duration, business rules that must be taken into account, and a brief description of the activity
@@ -242,5 +242,22 @@ categories: oceb businessprocess certification
   - On the one hand, they show what they should do and, on the other hand, what they actually do
   - People work in functions, but perform business processes
   - It is about what th epeople actually do, and not why they do it
-  
+
+## Chapter 4 - Basic Principles of Business Process Management
+1. TQM - Total Quality Management
+2. BPR - Business Process Reengineering
+3. According to TQM, the purpose of an organization is to stay in business, so its focus is on preservation, so that it can contribute stability to the colllective, provide customers with products and services, and offer an environment in which the employees oc an organization can develop themselves
+
+4. 1990s attention shifted to BPR, the goal is to achieve huge progress with regard to cost reduction and quality improvement and not small, incremental steps that take too long overall and thus can jeopardize the existence of the enterprise
+5. Businesses have a function-focused structure
+6. Business processes are orthogonal
+7. Alignment along functions is also referred to as vertical structure, and along the bsuiness processes as horizontal structure
+8. Quote - Continuous improvement is better than delayed perfection - Mark Twain
+9. In Adam Smith's "The Wealth of Nations" written in 1776 - He determined that productivity can be increased considerably by division of labor and specialization
+  - This requires the definitions of roles, associated tasks, and a description of how they collaborate
+  - which takes us to explicit business processes which should be controlled by management
+10. Side effect of functional focus (status quo) - is isolated optimization of individual process steps and not on the course of the entire process - leading to increased costs and undesireable results
+11. Its the business process management's task to define and implement processes, support performance measurements based on predefined process goals, and optimize processes
+12. It is important to know the process owner when you define and monitor the processes, so that processes can be oriented towards the customers and run optimally
+
   
