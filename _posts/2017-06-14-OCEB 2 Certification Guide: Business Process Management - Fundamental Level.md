@@ -390,3 +390,31 @@ categories: oceb businessprocess certification
 33. BMM provides an enforcement level for every business rule. The enforcement level can have two characteristics:
   - Strict - The business rule must be adhered to.  It becomes an organizational procedure
   - Guideline - The business rule should be adhered to, but deviations may occur in justified exceptions
+34. Influencers are just there until someone makes an assessment - important to describe the influencer neutrally and not subject to assessment
+35. Default Categories for External Influencers:
+  - Competitors
+  - Customers
+  - Partners
+  - Vendors
+  - Environment
+  - Regulation
+  - Technologies
+36. Default Categories for Internal Influencers:
+  - Assumption
+  - Enterprise value (implicit, explicit)
+  - Habit
+  - Infrastructure
+  - Point of issue
+  - (Management) priviledge
+  - Resources, supplies
+ 37. Organizational Unit - who executes the tactics, follows the business processes, and or complies with the business rules:
+  - Defines ends
+  - Establishes means
+  - Recognizes influencers
+  - Makes assessments
+  - Defines strategies
+  - Is resposible for a business process
+38. The Art of Abstraction - abstractions are necessary to structure complex situations and reduce them to manageable and comprehensive dimension
+39. Good modeling is the art of getting concrete at an abstract level - Tim Weilkiens
+40. Static models - map a specific structure
+41. Dynamic models - mainly illustrate activities of people, decisions, and the collaboration of departments
