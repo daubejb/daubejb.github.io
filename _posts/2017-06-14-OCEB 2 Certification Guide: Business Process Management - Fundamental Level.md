@@ -436,3 +436,35 @@ categories: oceb businessprocess certification
   - subprocess
   - process
 4. There are eight predefined task types that describe the behavior of a task
+5. In 2002, Stephan A. White developed a previous version of the current BPMN in cooperation with the BPMI (Business Process Management Initiative).
+6. Since 2006, BPMN has been an international standard of OMG
+7. Goals of BPMN:
+  - A standardized graphical notation exists for modeling business processes
+  - The notation can be understood by all stakeholders - from ba to process implementer
+  - The notation allows for the mapping of a graphical notation in an executable XML-based process language - for example, Web Service Business Process Execution Language (WSBPEL)
+  - Allows an interchange of diagrams between tools, using an interchange format and execution semations using a process engine
+8. BPMN supports three diagrams:
+  - the process diagram
+  - conversation diagram
+  - choreography diagrams
+9. BPMN is not focused on:
+  - Structure of organization units
+  - Structure of resources
+  - Data and information models
+  - Business strategies
+  - Business rules
+10. Process diagrams have three types of flow objects placed in a flow sequence:
+  - activities
+  - events
+  - gateways
+11. Comments - are indicated with an open square bracket in BPMN and can be linked with outher model elements using a broken line --- the association
+12. Start events - the start point of the flow, two types:
+  - Timer (specific date time / re-ocurring)
+  - Message (incoming email / phone call)
+13. Token - as soon as the start event occurs, process starts and a token is generated for the outbound sequence flow.  The token can proliferate or be destroyed.  The instance of the defined process ends when the last token is resolved
+14. BPMN provides two ways to illustrate parallel flows:
+  - explicit - using a parallel gateway
+  - implicit, using several sequence flows that exit an activity
+15. An exclusive gateway (diamond without a plus sign) - indicates that exactly one alternative can be selected
+16. Conditional sequence flow - daimonds coming directly out of the activity, if several conditions are true, all sequence flows receive a token.  The flow is parallelized, depending on the conditions
+17. Default flow (indicated by a slash on the flow line) - it receives a token if none of the conditions specified are true - prevents deadlock
