@@ -427,3 +427,12 @@ categories: oceb businessprocess certification
   - A specific perspective of reality can be presented in a targeted manner
   - An existing metamodel already provides a meaning for the concrete model, without having to document it explicitly once again
 45. Semantics - describes the meaning and the use of the model element if required.
+
+## Chapter 6 - Modeling Business Processes Using BPMN
+1. A BPD consists of activities, events, and gateways, which a sequence flow puts in a flow sequence.  Activities, events, and gateways are summarized under the term flow object.
+2. Business processes consist of work steps that require resources and are executed by organization units or IT systems.
+3. In BPMN, work steps are modeled using activities:
+  - task
+  - subprocess
+  - process
+4. There are eight predefined task types that describe the behavior of a task
