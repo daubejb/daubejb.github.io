@@ -418,3 +418,12 @@ categories: oceb businessprocess certification
 39. Good modeling is the art of getting concrete at an abstract level - Tim Weilkiens
 40. Static models - map a specific structure
 41. Dynamic models - mainly illustrate activities of people, decisions, and the collaboration of departments
+42. Everything is a system.  Everything that you can perceive as a unit of structures and interactive elements constitutes a system
+43. Syntax can be broken down into concrete and abstract syntax:
+  - Concrete syntax - is the (usually graphical) visualization of vocabulary, which is referred to as notion.
+  - Abstract syntax - involves a set of defined vocabulary (vision, goal, and so on) and is structural context.  In BMM, this abstract syntax is illustrated as UML modls
+44. Graphical models have the following benefits:
+  - Graphics can be understood and memorized faster
+  - A specific perspective of reality can be presented in a targeted manner
+  - An existing metamodel already provides a meaning for the concrete model, without having to document it explicitly once again
+45. Semantics - describes the meaning and the use of the model element if required.
