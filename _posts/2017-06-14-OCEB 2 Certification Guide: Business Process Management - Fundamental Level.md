@@ -545,4 +545,7 @@ categories: oceb businessprocess certification
 57. End event with terminate type - all activities are cancelled immediately and the entire process ends
 58. End event without event type - only the incoming token is switched off
 59. A subprocess cannot terminate its superordinate processes through a terminate event
+60. Signal events - are not aimed at a specific receiver or a specific process instance and they can be seen, heard, or felt (e.g., light signal, a horn)
+61. Condition events - if a token reaches this event, the event's condition is checked.  If the condition is true, the token continues, if not, it waits until it is true
+
 
