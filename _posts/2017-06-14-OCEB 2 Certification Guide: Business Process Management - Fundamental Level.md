@@ -334,3 +334,28 @@ categories: oceb businessprocess certification
   - Adapt the process diagram if required
   - Specify attributes of executability (use executable level of BPMN, define process variables, record execution rules, consdier BPMS-specific details)
 36. SOA - Service-oriented architecture - goal is to abstract the mapping of business processes in IT from concrete implementation. Allows you to describe the necessary processes using services without commiting yourself to platforms, programming languages, or other implementation details
+
+## Chapter 5 - Business Modeling
+1. A descriptive model of a whole enterprise consists of vision, mission statements, goals, strategies, and realizing tactics, etc.
+2. The OMG business motivation model (BMM) provides a structure by means of which thoses terms can be kept apart --- ensuring clarity in creating an enterprise model
+3. BMM provides a structure for defining and developing a business plan by describing which purposes an enterprise pursues by which means
+4. Top most areas or BMM are:
+  - end: describes the vision of the enterprise and the goals and objectives derived thereof
+    - vision and desired results
+    - goals
+    - objectives
+  - means: describes which means the enterprise deploys to meet the enterprise objective
+    - missions
+    - courses of actions
+      - strategies and tactics
+    - directives
+      - business policies
+      - business rules
+  - influencer: describes to which influencers the enterprise is exposed (current market trends, competitors)
+     - internal
+     - external to the organization
+  - assessment: assesses nuetral influencers on goals and means used
+  - external information: addresses further important topics of business modeling that are not part of BMM
+    - organization units
+    - business processes
+    - business rules
