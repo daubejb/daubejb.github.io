@@ -327,4 +327,10 @@ categories: oceb businessprocess certification
   - Generate executable process instances
   - Assign user tasks
   - Track and store execution data
-31. 
+35. To design a process diagram in an executable form, the following simplified stages must be completed:
+  - Classification of process activities into "automated" and "manual" (=user task)
+  - Re-check of manual activities and possible redesign into automated activities
+  - Check activities for identical level of granularity (observer 1:1:1 rule: Can the activity be performed without time interruption, by one person, at one place?)
+  - Adapt the process diagram if required
+  - Specify attributes of executability (use executable level of BPMN, define process variables, record execution rules, consdier BPMS-specific details)
+36. SOA - Service-oriented architecture - goal is to abstract the mapping of business processes in IT from concrete implementation. Allows you to describe the necessary processes using services without commiting yourself to platforms, programming languages, or other implementation details
