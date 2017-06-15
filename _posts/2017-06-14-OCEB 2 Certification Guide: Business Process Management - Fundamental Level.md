@@ -477,3 +477,39 @@ categories: oceb businessprocess certification
 24. A token never crosses the message flow to reach the flow of another pool
 25. A start event cannot have an incoming sequence flow
 26. An end event cannot have an outgoing sequence flow
+27. Activities - business processes consist of work steps that require resources and are executed by organization units or IT systems.  works steps are modeled using activities
+28. Activity - describes a work step within a business process, they can be:
+  - Task
+    - atomic
+  - Subprocess
+    - Non-atomic
+    - collapsed or expanded
+  - Process
+    - Non Atomic
+    - No Notation
+29. Task - is an atomic activity within a process, that is, the task is not detailed as a graphic in the model
+30. Subprocess - consists of refactored BPMN diagram (with activities, gateways, events, and sequence flows)
+31. Call - It can be used for tasks and subprocesses.  A call enables you to call a task or a process that was defined at another location.  This element is used for reuse
+32. A reuseable subprocess can contain several pools
+33. An embedded subprocess does not have any pools and lanes
+34. Activity Types:
+  - None - blank
+  - Subprocess - Plus sign
+  - Loop - Reload arrow
+  - Multiple instances - three lines
+  - Ad-hoc subprocess - tilde plus
+  - Transaction - Double border plus
+  - Compensatoin - double left arrow
+  - Call activity - none
+35. Loop - is repeated until the loop condition is met (changes from true to false) - defined in the activity's properties
+36. Multiple instance - is started multiple times in parallel (vertical lines) or sequentially (horizontal lines) using different data
+37. Ad-hoc subprocess can be executed in an order
+38. Transaction - is a subprocess that must be executed completely successfully or reversed.  A transaction is an indivisible whole
+39. Compensation - is an explicit reverse action and describes the steps that are necessary to reverse activities that have been completed successfully
+40. Task Types:
+  - Abstract task - the behavior of the task is not specified in more detail
+  - Send task - it sends messages to other external participants (pools) - send tasks must not have any incoming message flows (it is an alternative notation form to the throw event with the message trigger
+  - Receive task - waits for messages from external participants (pools) and receives them.  Once a message is received, the task is completed and the token leaves the task.  Receive task must not have any outgoing message flows
+41. Manual task - does not require IT support - filing a letter in a file cabinet
+
+
