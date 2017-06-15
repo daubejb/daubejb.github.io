@@ -539,4 +539,10 @@ categories: oceb businessprocess certification
   - start event - single circle thin
   - intermediate event - double circle thin
   - end event - thick single circle
+56. Two types of intermediate events:
+  - Throw event - When the token reaches the throw event, this event is executed and the flow is immediately continued
+  - Catch event - the token waits until the intermediate event occurs.  Only then is the flow continued
+57. End event with terminate type - all activities are cancelled immediately and the entire process ends
+58. End event without event type - only the incoming token is switched off
+59. A subprocess cannot terminate its superordinate processes through a terminate event
 
