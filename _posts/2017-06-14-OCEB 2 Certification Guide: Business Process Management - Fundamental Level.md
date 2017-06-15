@@ -368,6 +368,25 @@ categories: oceb businessprocess certification
 8. Goal - elaborates on the vision, in other words, it describes a long-term goal that must be achieved to amplify the vision
 9. Objective - A goal can have one to many objectives.  An objective has no direct referecne to the vision; instead, it can quantify any number of goals-it makes them measurable
 10. Desired result - both goals and objectives describe some kind of superordinate desired result
-11. Quote - Vision without action is a dream.  Action without vision is simply passing the time.  Action with vision is making a positive difference
+11. Quote - Vision without action is a dream.  Action without vision is simply passing the time.  Action with vision is making a positive difference - Joel barker
 21. Visions and goals always entail the means required to implement them
-22. Means mainly consist of three elements
+22. Means mainly consist of three elements:
+  - Missions as the counterpart to vision
+  - Courses of action as the counterpart to desired results
+  - Directives
+23. The procedures in an enterpise are implemented through business processes to achieve the mission
+24. In BMM, the means of the enterprise are deliberately described independent of the end.  This concept is referrred to as separation of concerns and considers that means can change while the goals remain the same
+25. A mission makes an associated vision operative in the first place
+26. Every mission statement consists of three elements:
+  - An action in the form of a verb, for instance, offers
+  - A product of service, for instance, training
+  - A customer or market, for instance, Red Hat
+27.  Every strategy and every tactic is some kind of course of action and, as such, can support any desired results
+28.  Strategy vs. Tactic --> tactic implements any number of strategies.  From this, a tactic already desribes a very concrete action, while a strategy is still vague
+29. A strategy, in turn, can be implemented by any number of tactics.  BMM considers the strategy as part of the mission's implementation plan to achieve the goals
+30. While the two courses of action, strategy and tactic, only make statements on what is done, a directive describes how it is done.
+31. Every directive can govern any number of courses of action and support any number of desired results (goals and objectives)
+32. A directive is either a business policy or a business rule
+33. BMM provides an enforcement level for every business rule. The enforcement level can have two characteristics:
+  - Strict - The business rule must be adhered to.  It becomes an organizational procedure
+  - Guideline - The business rule should be adhered to, but deviations may occur in justified exceptions
