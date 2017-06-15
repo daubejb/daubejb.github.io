@@ -511,5 +511,24 @@ categories: oceb businessprocess certification
   - Send task - it sends messages to other external participants (pools) - send tasks must not have any incoming message flows (it is an alternative notation form to the throw event with the message trigger
   - Receive task - waits for messages from external participants (pools) and receives them.  Once a message is received, the task is completed and the token leaves the task.  Receive task must not have any outgoing message flows
 41. Manual task - does not require IT support - filing a letter in a file cabinet
-
-
+42. User task - is a semiautomated step which the executor performs with the support of a system
+43. Service task - uses some kind of service, for example, a web service or automated application.  Message flows are permitted to indicate where the service is called
+44. Script task - is run by a process engine
+45. Gateway - controls how the sequence flow spreads and merges within a process
+46. Types of gateways:
+  - Data-based exclusive gateway
+    - blank
+    - X
+  - Event-based exclusive gateway
+    - double circumscribed pentagon
+  - Parallel gateway
+    - plus sign
+  - Inclusive gateway
+    - circle
+  - Complex gateway
+    - asterisk
+47. Exclusive gateway - restricts the sequence flow in such a way that exactly one alternative is selected from a set of alternatives at runtime
+48. Decision - exclusive gateway corresponds to a typical "either-or" decision where exactly one alternative is selected
+49. Merge - If an exclusive gateway joins a flow, every incoming token immediately goes through the gateway and continues the flow without delay
+50. Data-based exclusive gateway - decides, depending on the conditions in the sequence flow, how the token migrates.  The decision whether a condition is true or false can be made at runtime based on the process data provided
+51. Event based exclusive gateway - that decides which flow in continued based on the occurence of one of the events
