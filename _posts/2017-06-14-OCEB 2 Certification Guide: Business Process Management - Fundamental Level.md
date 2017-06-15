@@ -473,3 +473,7 @@ categories: oceb businessprocess certification
 20. Pool - are used to subdivide a process according to different organizations
 21. Message Flows - Every pool is responsible for its process and can communicate with other pools via message flows
 22. Lane - the way to structure an organization by groups or roles, lanes communicate with other lanes within the same pool using sequence flows
+23. Token - is some sort of virtual marble, which is generated when a process is called and stands for a concrete flow along events, activities, gateways, and sequence flows.
+24. A token never crosses the message flow to reach the flow of another pool
+25. A start event cannot have an incoming sequence flow
+26. An end event cannot have an outgoing sequence flow
