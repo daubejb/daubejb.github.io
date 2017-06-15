@@ -356,6 +356,18 @@ categories: oceb businessprocess certification
      - external to the organization
   - assessment: assesses nuetral influencers on goals and means used
   - external information: addresses further important topics of business modeling that are not part of BMM
-    - organization units
-    - business processes
-    - business rules
+    - organization units (OSM Organization Structure Metamodel)
+    - business processes (BPDM Business Process Definition Metamodel)
+    - business rules (SBVR Semantics of Business Vocabulary and Rules)
+5. BMM has not standard notation, but only abstract syntax
+6. Three elements can be scaled as large as you want:
+  - Desired rsult
+  - Course of action
+  - Business policy
+7. Vision - describes a future image of the enterprise and equally expresses an ultimate, rather impossible, and therefore desirable state
+8. Goal - elaborates on the vision, in other words, it describes a long-term goal that must be achieved to amplify the vision
+9. Objective - A goal can have one to many objectives.  An objective has no direct referecne to the vision; instead, it can quantify any number of goals-it makes them measurable
+10. Desired result - both goals and objectives describe some kind of superordinate desired result
+11. Quote - Vision without action is a dream.  Action without vision is simply passing the time.  Action with vision is making a positive difference
+21. Visions and goals always entail the means required to implement them
+22. Means mainly consist of three elements
