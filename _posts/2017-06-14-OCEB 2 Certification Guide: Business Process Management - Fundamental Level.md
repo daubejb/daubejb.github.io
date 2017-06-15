@@ -468,3 +468,8 @@ categories: oceb businessprocess certification
 15. An exclusive gateway (diamond without a plus sign) - indicates that exactly one alternative can be selected
 16. Conditional sequence flow - daimonds coming directly out of the activity, if several conditions are true, all sequence flows receive a token.  The flow is parallelized, depending on the conditions
 17. Default flow (indicated by a slash on the flow line) - it receives a token if none of the conditions specified are true - prevents deadlock
+18. Subprocess (indicated by an activity with a plus sign) - means that the subprocess has been collapsed
+19. Data objects - the model representing business objects, the process can create, change, or destroy this information
+20. Pool - are used to subdivide a process according to different organizations
+21. Message Flows - Every pool is responsible for its process and can communicate with other pools via message flows
+22. Lane - the way to structure an organization by groups or roles, lanes communicate with other lanes within the same pool using sequence flows
