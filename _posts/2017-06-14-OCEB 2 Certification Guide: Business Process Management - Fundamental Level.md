@@ -315,6 +315,16 @@ categories: oceb businessprocess certification
 29. A challenge in a process-focused organization is to effectively coordinate the functions involved in the process
 30. Daniel J. Madison lists several points on becoming a Process-Focused Organization
   - Culture (shift from individual recognition to process excellence), errors are not considered made by a person, they are an opportunity to improve processes from the insights gained.  The values of the organization
-  - Concepts
-  - Structure
-  - Technology
+  - Concepts (orgs require a mission and vission, strategies must directly relate to the processes
+  - Structure - create a formal governing body that oversees the org-wide bus processes and sets priorities and provides resources for projects
+  - Technology - IT must provide (support by modeling and testing them, full or partial automation, provision of information, such as key figures)
+31. Business Process Management Suites are deployed to perform process redesigns and to manage and automate enterprise processes
+  - these integrate existing back-end systems, with regard to business process operations and provide them with holistic data for a process instance
+32. A complete BPMS includes the functions, process modeling, simulation of process designs, and the monitoring of running process instances
+33. Some BPMS do not execute processes...these require a separate execution engine
+34. Process engines perform the following tasks:
+  - Support an executable process design
+  - Generate executable process instances
+  - Assign user tasks
+  - Track and store execution data
+31. 
