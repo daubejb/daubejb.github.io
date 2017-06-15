@@ -532,3 +532,11 @@ categories: oceb businessprocess certification
 49. Merge - If an exclusive gateway joins a flow, every incoming token immediately goes through the gateway and continues the flow without delay
 50. Data-based exclusive gateway - decides, depending on the conditions in the sequence flow, how the token migrates.  The decision whether a condition is true or false can be made at runtime based on the process data provided
 51. Event based exclusive gateway - that decides which flow in continued based on the occurence of one of the events
+52. Parallel gateway - splits the sequence flow into two or more parallel flows or synchronizes or merges the parallel flows again.  The synchronization waits until all incoming sequence flows hav arrived.  Only then is the flow continued
+53. No conditions are allowed in the parallel gateways sequence flow
+54. Inclusive gateway - the sequence flows receive one or more tokens, depending on the branch conditions
+55. Event - something that happens during a business process and starts, ends, delays, or interrupts the flow
+  - start event - single circle thin
+  - intermediate event - double circle thin
+  - end event - thick single circle
+
