@@ -9,7 +9,7 @@ tags: howto python object-oriented-programming
 
 ## Notes
 
-### Chapter One
+### Chapter One - Object-oriented Design
 
 1. **Object** - a collection of _data_ and associated _behaviors_
 2. **Object-oriented** - functionality directed towards modeling objects
@@ -40,6 +40,12 @@ tags: howto python object-oriented-programming
 27. **Interfaces** - a class that does not implement any methods at all. it simply tells what the class should do, but not advice on how it should do it
 28. **Polymorphism** - the ability to treat a class differently depending on which subclass is implemented
 29. **duck typing** if it walks like a duck or swims like a duck, its a duck
-30. **multiple-inheritance** - 
+30. **refactoring** - improve the design by moving code around, removing duplicate code or complex relationships in favor of simpler, more elegant designs
+
+### Chapter Two - Objects in Python
+
+1. **dot notation** - <object>.<attribute> = <value> syntax
+2. **docstrings** - the way to write API documentation directly into your code so that you do not have to keep other documentation up to date
+
 
 ---
