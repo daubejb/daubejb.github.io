@@ -49,7 +49,7 @@ tags: howto python object-oriented-programming
 3. **modules** - are simply Python files, nothing more
 4. **import** - used for importing modules or specific classes or functions from modules
 5. **package** - a collection of modules in a folder, the name of the package is the name of the folder
-6. To tell python that this folder is a package, simply put an /_/_init/_/_.py file in the folder
+6. To tell python that this folder is a package, simply put an \_\_init\_\_.py file in the folder
 7.
 
 
