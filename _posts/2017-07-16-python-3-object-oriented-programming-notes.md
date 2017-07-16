@@ -57,6 +57,15 @@ tags: howto python object-oriented-programming
 11. **name mangling** - prefix with double underscore means thta the method can still be called by outside objects if they really want to do it, but it requires extra work and is a strong indicator that you demand that your attribute remains private
 12. **ensurepip** - python does not come with pip; however, ensure pip installs it
 
+### Chapter Three - When Objects Are Alike
+
+1. **Basic Inheritance** - All Python classes are subclasses of the special class named object
+2. **mixin** - is generally a superclass that is not meant to exist on its own, but is meant to be inherited by some other class to provide extra functionality.  It is the simplest and most useful form of multiple inheritance
+3. **Method Resolution Order (MRO)** - \_\_mro\_\_ can be adapted on the fly to adjust the order in which methods can be called
+4. **\*\*kwargs** - basically collects any keyword arguments passed into the method that were not explicitly listed in the parameter list.  These arguments are stored in a dictionary named kwards
+  - when we call a different method (for example, _super().\_\_init\_\_)_ with a \*\*kwargs syntax, it unpacks the dictionary and passes the results to the method as normal keyword arguments
+5. **Abstract base classes (ABCs)** - define a set of methods and properties that a class must implement in order to be considered a duck-type instance of that class.  The class can extend the abstract base class itself in order to be used as an instance of the class, but it must supply all the appropriate methods
+
 
 
 
