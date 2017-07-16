@@ -50,7 +50,14 @@ tags: howto python object-oriented-programming
 4. **import** - used for importing modules or specific classes or functions from modules
 5. **package** - a collection of modules in a folder, the name of the package is the name of the folder
 6. To tell python that this folder is a package, simply put an \_\_init\_\_.py file in the folder
-7.
+7. startup code should always go in a function named 'main'
+8. Policy to wrap all scripts in an __if \_\_name\_\_ == "\_\_main\_\_":  main()__ - this way, just in case you write a function you will find useful to be imported by other code someday
+9. **Abstraction** - access control is related to abstraction
+10. Private attributes or methods, by convention, should be prefixed with an underscore character.  Python programmers will interpret this as "this is an internal variable, think three times before accessing it directly"
+11. **name mangling** - prefix with double underscore means thta the method can still be called by outside objects if they really want to do it, but it requires extra work and is a strong indicator that you demand that your attribute remains private
+12. **ensurepip** - python does not come with pip; however, ensure pip installs it
+
+
 
 
 ---
