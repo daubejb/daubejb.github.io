@@ -76,6 +76,17 @@ tags: howto python object-oriented-programming
 6. When an exception is raised, any lines that were supposed to run after the exception are not executed
 7. Exceptions can be handled at any level after they are initially raised
 
+### Chapter Five - When to Use Object-oriented Programming
+
+1. Treat objects as objects - give separate objects in your problem domain a special class in your code
+2. Objects are things that have both data a behavior
+3. If a script is not meant to be ran directly, remove the main call at the bottom of the original script
+4. In python strings aren't mutable (able to be changed).  Once a str is defined, it is forever
+5. **\\n** represents the end of one line and the beginning of a new one
+
+
+
+
 
 
 
