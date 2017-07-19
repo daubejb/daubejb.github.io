@@ -73,6 +73,9 @@ tags: howto python object-oriented-programming
 3. All exceptions inherit from **BaseException**
 4. In Python **Error** and **Exception** are used interchangeably
 5. **raise** - keyword causes an exception to occur
+6. When an exception is raised, any lines that were supposed to run after the exception are not executed
+7. Exceptions can be handled at any level after they are initially raised
+
 
 
 
