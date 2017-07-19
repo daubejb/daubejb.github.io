@@ -68,7 +68,12 @@ tags: howto python object-oriented-programming
 
 ### Chapter Four - Expecting the Unexpected
 
-1. **
+1. **Exceptiongs** - special error objects that only need to be handled when it makes sense to handle them
+2. Exceptions are just objects.  There are many different exception classes
+3. All exceptions inherit from **BaseException**
+4. In Python **Error** and **Exception** are used interchangeably
+5. **raise** - keyword causes an exception to occur
+
 
 
 
