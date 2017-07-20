@@ -84,6 +84,29 @@ tags: howto python object-oriented-programming
 4. In python strings aren't mutable (able to be changed).  Once a str is defined, it is forever
 5. **\\n** represents the end of one line and the beginning of a new one
 
+### Chapter Six - Python Data Structures
+
+1. Python disables arbitrary attributes on the base class object for memory saving purposes
+2. It is possible to restrict arbitrary properties on our own classes using **slots**
+3. Again, Classes should be only used when you want to specify _both_ data and behaviors
+4. **Tuples** are objects that can store a specific number of other objects in order.  They are immutable
+5. If you need to modify a tuple, you are using the wrong data type
+6. The primary benefit of tuples' immutability is that we can use them as keys in dictionaries, and in other locaitons where an object requires a hash value
+7. The primary purpose of a tuple is to aggregate different pieces of data together into one container
+8. Named tuples are tuples with attitude.  It is a great way to group read-only data together
+9. Dictionaries are incredibly useful containers that allow us to map objects directly to other objects.  An empty object with attributes are a sort of dictionary.
+10. Dictionaries are extremely efficient at looking up a value, given a specific key object that maps to that value
+11. **value** - the object that is being stored is called the value
+12. **key** - the object that is being used as the index is called the key 
+13. **get** method - accepts a key as the first parameter and an option default value if the key doesn't exist
+14. **setdefault** method - trys to set the value to the provided if the key does not exist; otherwise provide the already supplied value
+15. Dictionaries are unsorted due to the efficient algorithm (known as hashing)
+16. Lists cannot be stored in a dictionary
+
+### Chapter Seven - Python Object-oriented Shortcuts
+
+1. **Method Overloading** - having multiple methods with the same name that accept different sets of agrguments.
+
 
 
 
