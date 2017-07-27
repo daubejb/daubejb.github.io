@@ -120,11 +120,18 @@ tags: howto python object-oriented-programming
   - In addition, every iterator must also fulfill the **Iterable** interface
   - any class that provides the \_\_iter\_\_ method is iterable; that method must return an Iterator instance that will cover all the elements in the class
 4. **Comprehensions** are simple, but powerful, syntaxes that allow us to transform or filter an iterable objec tin as little as one line of code
-5. **List comprehensions** are one of the most powerful tools in Python.  List comprehensions are far faster than for loops when looping over a huge number of items.  Example:
+5. **List comprehensions** are one of the most powerful tools in Python.  List comprehensions are far faster than for loops when looping over a huge number of items.  
+
+Example \# 1:
 ```python
 input_strings = ['1', '1', '2', '3', '5', '8']output_integers = [int(num) for num in input_strings]
 ```
-
+Example \# 2:
+```python
+output_ints = [int(n) for n in input_strings if len(n) < 3]
+```
+6. Any iterable can be the input to a list comprehension
+7. Comprehensions are not limited to lists.  We can use a similar syntax with braces to create sets and dictionaries as well.  Let's start with sets.  One way to create a set is to wrap a list of comprehension in the set() constructor, which converts it to a set
 
 
 
