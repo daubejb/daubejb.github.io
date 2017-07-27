@@ -132,6 +132,14 @@ output_ints = [int(n) for n in input_strings if len(n) < 3]
 ```
 6. Any iterable can be the input to a list comprehension
 7. Comprehensions are not limited to lists.  We can use a similar syntax with braces to create sets and dictionaries as well.  Let's start with sets.  One way to create a set is to wrap a list of comprehension in the set() constructor, which converts it to a set
+8. Comprehensions are not advance Python, nor are they "non-object-oriented" tools that should be avoided.  They are simply a more concise and optimized syntax for creating a list, set, or dictionary from an existing sequence.
+9. Sometimes we want to process a new sequence without placing a new list, set, or dictionary into system memory
+10. Enter **generator expressions** - use the same syntax as comprehensions, but they don't create a final container object
+  - To create a generator expresssion, wrap the comprehension in () instead of [] or {}
+11. Generator expressions are frequently most useful inside function calls, for example we can call _sum_, _mim_, or _max_, on a generator expression instead of a list, since these functions process one object at a time
+12. **Coroutines** - research later
+
+
 
 
 
