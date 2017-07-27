@@ -139,6 +139,13 @@ output_ints = [int(n) for n in input_strings if len(n) < 3]
 11. Generator expressions are frequently most useful inside function calls, for example we can call _sum_, _mim_, or _max_, on a generator expression instead of a list, since these functions process one object at a time
 12. **Coroutines** - research later
 
+### Chapter 10 - Python Design Patterns I
+
+1. **Decorator pattern** - the decorator pattern allows us to "wrap" an object that provides core functionality with other objects that alter this functionality.  There are two primary uses:
+  - Enhancing the response of a component as it sends data to a second component
+  - Supporting multiple option behaviors
+2. **Observer pattern** - The observer pattern is useful for state monitoring and event handling situations.  This pattern allows a given object to be monitored by an unknown and dynamic group of "observer" objects
+3. **Strategy pattern** - is a common demonstration of abstraction in object-oriented programming.  The pattern implements different solutions to a single problem, each in a different object.  The client code can then choose the most appropriate implementation dynamically at runtime
 
 
 
