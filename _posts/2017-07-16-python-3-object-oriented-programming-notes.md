@@ -146,7 +146,11 @@ output_ints = [int(n) for n in input_strings if len(n) < 3]
   - Supporting multiple option behaviors
 2. **Observer pattern** - The observer pattern is useful for state monitoring and event handling situations.  This pattern allows a given object to be monitored by an unknown and dynamic group of "observer" objects
 3. **Strategy pattern** - is a common demonstration of abstraction in object-oriented programming.  The pattern implements different solutions to a single problem, each in a different object.  The client code can then choose the most appropriate implementation dynamically at runtime
-
+4. **State pattern** - The goal of the state pattern is to represent state-transition systems: systems where it is obvious that an object can be in a specific state, and that certain activities may drive it to a different state
+5. While the state and strategy patterns are very similar, they solve different problems:
+  - The Strategy pattern is used to choose an algorithm at runtime; generally, only one of those algorithms is going to be chosen for a particular use case
+  - The State pattern is designed to allow switching between different states dynamically, as some process evolves.
+6. **Singleton pattern
 
 
 
