@@ -107,6 +107,23 @@ tags: howto python object-oriented-programming
 
 1. **Method Overloading** - having multiple methods with the same name that accept different sets of agrguments.
 
+### Chapter Eight - Strings and Serialization
+
+1. **to read**
+
+### Chapter Nine - The Iterator Pattern
+
+1. **Design patterns** - a design pattern proposes a set of objects interacting in a specific way to solve a general problem
+2. **Iterator** - is an object with a next() method and a done() method; the latter returns True if there are no items left in the sequence
+3. The abstract base class **Iterator** in the _collections.abc  module_, defines the iterator protocol in Python
+  - it must have a \_\_next\_\_ method that the for loop can call to get a new element from the sequence
+  - In addition, every iterator must also fulfill the **Iterable** interface
+  - any class that provides the \_\_iter\_\_ method is iterable; that method must return an Iterator instance that will cover all the elements in the class
+4. **Comprehensions** are simple, but powerful, syntaxes that allow us to transform or filter an iterable objec tin as little as one line of code
+5. **List comprehensions** are one of the most powerful tools in Python.  List comprehensions are far faster than for loops when looping over a huge number of items.  Example:
+```python
+input_strings = ['1', '1', '2', '3', '5', '8']output_integers = [int(num) for num in input_strings]
+```
 
 
 
