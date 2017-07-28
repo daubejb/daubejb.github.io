@@ -191,7 +191,100 @@ _ _ _
 
 ### Chapter Eleven - Python Design Patterns II
 
-
+**Adapter pattern** - used to interact with existing code
+  - adapters are used to allow two existing objects to work together, even if there interfaces are not compatible
+  - adapters sole purpose is to perform the translation on the fly, tasks include:
+    - converting arguments to a different format
+    - rearranging the order of arguments
+    - calling a differently named method
+    - supplying default arguments
+**Facade pattern** - provides a simple interface to a complex system of components
+  - a facade is different from an adapter because the facade is trying to abstract a simpler interface out of a complex one; whereas, the adapter is mapping one interface to another
+**Flyweight pattern** - is a memory optimization pattern
+  - ensures that objects that share a state can use the same memory for that shared state
+**Command pattern** - adds a level of abstraction between actions that must be done, and the object that invokes those actions, normally at a later time
+**Abstract factory pattern** - used when we have multiple possible implementations of a system that depend on some configuration or platform issue
+  - example is os independent toolkits, database backends, country-specific formatters
+**Composite patttern** - allows complex tree-like structures to be built from simple components
+  - hese components, called composite objects, are able to behave kind of like a container and sort of like a variable depending on whether they have children components.  Composite objects are container objects, where the content may actually be another composite object
+  - Traditionally, each component is either a leaf (contains no objects) or a composite node
+  - Example, using duck typing:
+  ```python
+  class Folder:
+    def __init__(self, name):
+      self.name = name
+      self.children = {}
+    
+    def add_child(self, child):
+      pass
+    
+    def move(self, new_path):
+      pass
+    
+    def copy(self, new_path):
+      pass
+      
+    def delete(self):
+      pass
+  
+  
+  class File:
+    def __init__(self, name, contents):
+      self.name = name
+      self.contents = contents
+      
+    def move(self, new_path):
+      pass
+    
+    def copy(self, new_path):
+      pass
+    
+    def delete(self):
+      pass
+      
+  
+  class Component:
+    def __init__(self, name):
+      self.name = name
+    
+    def move(self, new_path):
+      new_folder = get_path(new_path
+      del self.parent.children[self.name]
+      new_folder.children[self.name] = self
+      self.parent = new_folder
+      
+    def delete(self)
+      del self.parent.children[self.name]
+      
+      
+  class Folder(Component):
+    def __init__(self, name):
+      super().__init__(name)
+      self.children = {}
+      
+    def add_child(self, child):
+      pass
+    
+    def copy(self, new_paqth):
+      pass
+  
+  
+  class File(Component):
+    def __init__(self, name, contents):
+      super().__init__(name)
+      self.contents = contents
+    
+    def copy(self, new_path):
+      pass
+  
+  root = Folder('')
+  def get_path(path):
+    names = path.split('/')[1:]
+    node = root
+    for name in names:
+      node = node.children[name]
+    return node
+  ```
 
 
 
