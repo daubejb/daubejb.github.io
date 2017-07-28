@@ -42,6 +42,8 @@ tags: howto python object-oriented-programming
 29. **duck typing** if it walks like a duck or swims like a duck, its a duck
 30. **refactoring** - improve the design by moving code around, removing duplicate code or complex relationships in favor of simpler, more elegant designs
 
+_ _ _
+
 ### Chapter Two - Objects in Python
 
 1. **dot notation** - object.attribute = value syntax
@@ -57,6 +59,8 @@ tags: howto python object-oriented-programming
 11. **name mangling** - prefix with double underscore means thta the method can still be called by outside objects if they really want to do it, but it requires extra work and is a strong indicator that you demand that your attribute remains private
 12. **ensurepip** - python does not come with pip; however, ensure pip installs it
 
+_ _ _
+
 ### Chapter Three - When Objects Are Alike
 
 1. **Basic Inheritance** - All Python classes are subclasses of the special class named object
@@ -65,6 +69,8 @@ tags: howto python object-oriented-programming
 4. **\*\*kwargs** - basically collects any keyword arguments passed into the method that were not explicitly listed in the parameter list.  These arguments are stored in a dictionary named kwards
   - when we call a different method (for example, _super().\_\_init\_\_)_ with a \*\*kwargs syntax, it unpacks the dictionary and passes the results to the method as normal keyword arguments
 5. **Abstract base classes (ABCs)** - define a set of methods and properties that a class must implement in order to be considered a duck-type instance of that class.  The class can extend the abstract base class itself in order to be used as an instance of the class, but it must supply all the appropriate methods
+
+_ _ _
 
 ### Chapter Four - Expecting the Unexpected
 
@@ -76,6 +82,8 @@ tags: howto python object-oriented-programming
 6. When an exception is raised, any lines that were supposed to run after the exception are not executed
 7. Exceptions can be handled at any level after they are initially raised
 
+_ _ _
+
 ### Chapter Five - When to Use Object-oriented Programming
 
 1. Treat objects as objects - give separate objects in your problem domain a special class in your code
@@ -83,6 +91,8 @@ tags: howto python object-oriented-programming
 3. If a script is not meant to be ran directly, remove the main call at the bottom of the original script
 4. In python strings aren't mutable (able to be changed).  Once a str is defined, it is forever
 5. **\\n** represents the end of one line and the beginning of a new one
+
+_ _ _
 
 ### Chapter Six - Python Data Structures
 
@@ -103,13 +113,19 @@ tags: howto python object-oriented-programming
 15. Dictionaries are unsorted due to the efficient algorithm (known as hashing)
 16. Lists cannot be stored in a dictionary
 
+_ _ _
+
 ### Chapter Seven - Python Object-oriented Shortcuts
 
 1. **Method Overloading** - having multiple methods with the same name that accept different sets of agrguments.
 
+_ _ _
+
 ### Chapter Eight - Strings and Serialization
 
 1. **to read**
+
+_ _ _
 
 ### Chapter Nine - The Iterator Pattern
 
@@ -138,6 +154,8 @@ output_ints = [int(n) for n in input_strings if len(n) < 3]
   - To create a generator expresssion, wrap the comprehension in () instead of [] or {}
 11. Generator expressions are frequently most useful inside function calls, for example we can call _sum_, _mim_, or _max_, on a generator expression instead of a list, since these functions process one object at a time
 12. **Coroutines** - research later
+
+_ _ _
 
 ### Chapter 10 - Python Design Patterns I
 
@@ -168,6 +186,11 @@ output_ints = [int(n) for n in input_strings if len(n) < 3]
 8. **SQLite** - is a simple file-based database engine that allows us to store records using SQL syntax
 9. **NotImplementedError** - helps the programmer understand that the class is meant to be subclassed and these methods overridden
 10. Best part about this pattern is that if we want to change from SQLite to py-postgresql, we only have to chang it here and not in the 100's of subclasses that we may have made
+
+_ _ _
+
+### Chapter Eleven - Python Design Patterns II
+
 
 
 
