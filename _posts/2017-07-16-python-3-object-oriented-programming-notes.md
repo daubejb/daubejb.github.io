@@ -150,8 +150,24 @@ output_ints = [int(n) for n in input_strings if len(n) < 3]
 5. While the state and strategy patterns are very similar, they solve different problems:
   - The Strategy pattern is used to choose an algorithm at runtime; generally, only one of those algorithms is going to be chosen for a particular use case
   - The State pattern is designed to allow switching between different states dynamically, as some process evolves.
-6. **Singleton pattern
-
+6. **Singleton pattern** - to allow exactly one instance of a certain object to exist.  In most OOP languages, singletons are inforced by making the constructor private (so no one can create additional instances of it), and then providing a static method to retrieve the single instance
+  - Python does not have private constructors; however, the \_\_new\_\_ class method can be used to ensure only one
+  - Example:
+  ```python
+  class OneOnly:
+    _singleton = None
+    def __new__(cls, *args, **kwargs):
+      if not cls._singleton:
+        cls._singleton = super(OneOnly, cls).__new__(cls, *args, **kwargs)
+      return cls.singleton
+  ```
+7. **Template pattern** - the template pattern is useful for removing duplicate code; it's an implementation to support the _Don't Repeate Yourself_ principle
+  - Designed for situations where we have several tasks that have some, but not all, steps in common
+  - Common steps implemented in a base class
+  - and then the distinct steps are overridden in subclasses to provide custom behavior
+8. **SQLite** - is a simple file-based database engine that allows us to store records using SQL syntax
+9. **NotImplementedError** - helps the programmer understand that the class is meant to be subclassed and these methods overridden
+10. Best part about this pattern is that if we want to change from SQLite to py-postgresql, we only have to chang it here and not in the 100's of subclasses that we may have made
 
 
 
