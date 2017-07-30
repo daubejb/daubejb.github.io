@@ -6,10 +6,18 @@ by Caleb Doxsey
 
 ### Chapter 1 - Getting Started
 
+1. **No notes**
 ---
 
 ### Chapter 2 - Your First Program
 
+1. Two types of Go programs:  executables and libraries
+  - executable applications are the kinds of programs that we can run directly from terminal
+  - libraries are collections of code that we package together so that we can use them in other programs
+2. Go mostly does not care about whitespace
+3. **fmt** the Go package that implements formatting for input and output
+4. **Double quotes** - is a string literal, which is a type of "expression"
+5. // represents the beginning of a comment, ///* asdfasfasdfasdf /*/ can be used for a multi line comment
 ---
 
 ### Chapter 3 - Types
