@@ -17,7 +17,9 @@ by Caleb Doxsey
 2. Go mostly does not care about whitespace
 3. **fmt** the Go package that implements formatting for input and output
 4. **Double quotes** - is a string literal, which is a type of "expression"
-5. // represents the beginning of a comment, ///* asdfasfasdfasdf /*/ can be used for a multi line comment
+5. // represents the beginning of a comment, /* asdfasfasdfasdf */ can be used for a multi line comment
+6. **main** is the function that is called when we execute the program
+7.
 ---
 
 ### Chapter 3 - Types
