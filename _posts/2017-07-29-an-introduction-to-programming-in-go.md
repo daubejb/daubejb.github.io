@@ -130,6 +130,18 @@ fmt.Println(total / float64(len(x)))
 
 ### Chapter 7 - Functions
 
+1. **Function** - a function is an independent section of code that maps zero or more input parameters to zero or more output parameters
+  - in go functions are structured as _func_ (_name_, _types_ ...) (_return_, _type_ ...)
+  - collectively the parameters and the return type are known as the function's signature
+  - function body is put between two curly braces {}
+  - in this body _panic_ is invoked - which causes a run time error
+2. **variadac function** - a special form available or the last parameter in a Go function, indicated by __...__
+  - this means that the function takes zero or more of these parameters
+  - we can also pass in a slice of int's by passing in __xs...__
+3. It is possible to create functions inside of functions -- a function like this together with non-local variables it references is know as closure
+  - one way to use closure is by writing a fucntion which returns another function which - when called - can generate a sequence of numbers
+
+  
 ---
 
 ### Chapter 8 - Pointers
