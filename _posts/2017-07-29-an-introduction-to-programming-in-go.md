@@ -69,6 +69,16 @@ by Caleb Doxsey
 
 ### Chapter 4 - Variables
 
+1. **variables** - format is _var_ space _name_ space _type_
+  - example:  var x string
+2. **==** - is just like python - meaning like
+3. **short variables** - x := "Hello World" - the go compiler infers the type based on the literal value you assign the variable
+4. **Name a variable**
+  - must start with a letter
+  - may contain numbers or the \_(underscore) symbol
+5. Go is lexically scoped using blocks - meaning that variables exist within the nearest curly braces {}
+6. **Constants** - variables whose values cannot be changed later - create using _const_ instead of _var_
+
 ---
 
 ### Chapter 5 - Control Structures
