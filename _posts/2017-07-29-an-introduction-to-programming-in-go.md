@@ -105,7 +105,27 @@ fmt.Println(total / float64(len(x)))
   - float64() converts the len(x) integer into a float
 3. Go also provides a shorter syntax for creating arrays:
   - x := \[5\]float64{ 98, 93, 77, 82, 83 }
-  
+4. **Slice** - is a segment of an array.  Like arrays slices are indexable and have a length.  Unlike arrays this length is allowed to change, example of a slice:
+  - var x \[\]float64
+5. To create a slice you use the built-in _make_ function:
+  - x := make(\[\]float65, 5)
+  - this creates a slice that is associated with an underlying float64 array of length 5
+  - another way to create a slice is to use the low:high
+  ```go
+  arr := [5]float65{1,2,3,4,5}
+  x := arr[0:5]
+  ```
+6. Go includes to built-in functions to assist with slices:
+  - **apend**
+  - **copy**
+7. **Maps** - a map is an unordered collection of key-value pairs.  Also known as an associative array, a hash table, or a dictionary, maps are used to look up a value by its associated key.  Here's an example of a map in Go:
+  - var x map\[string\]int
+    - read aloud - 'x is a map of strings to ints'
+8. Accessing an element of a map can return two values instead of just one, the first value is the result of the lookup, the second tells us whether or not the lookup was successful:
+  - if name, ok := elements\["Un"\]; ok {
+      fmt.Println(name, ok)
+    }
+
 ---
 
 ### Chapter 7 - Functions
