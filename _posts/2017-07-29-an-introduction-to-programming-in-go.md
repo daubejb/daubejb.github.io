@@ -27,7 +27,45 @@ by Caleb Doxsey
 
 ### Chapter 3 - Types
 
----
+1. Go is a statically typed programming language.  This means that variables always have a specific type and that type cannot change
+2. **Integers** - Go has the following integer types:
+  - uint8 (byte)
+  - uint16
+  - uint32 (rune)
+  - uint64
+  - int8
+  - int16
+  - int32
+  - int64
+    - the numbers tell us how many bits each of the types use
+3. **uint** - means "unsigned integer"
+  - unsigned integers contain only positive numbers (or zero)
+4. **int** - means "signs integer"
+5. Three machine dependent integer types:
+  - uint, int, and uintptr - there size depends on the type of architecture you are using
+6. **floating point** - are numbers that contain a decimal component (real numbers)
+  - floating point numbers are inexact
+  - they have a certain size (32 bit or 64 bit)
+  - using a larger sized floating point number increases it's precision (how many digits in can represent)
+7. Go has two floating point types:
+  - float32 (aka, single precision)
+  - float64 (aka, double precision)
+8. Go has two additional types for representing complex numbers (numbers with imaginary parts):
+  - complex64
+  - complex128
+9. **string** - is a sequence of characters with a definite length use to represent text.
+10. Go strings are made up of individual bytes, usually one for each character
+11. String literals can be made using double quotes "Hello World" or back ticks \`Hello World\`
+12. Double quoted strings cannot contain newlines and the allow for escape sequences
+  - \n gets replaced with a newline
+  - \t gets replaced with a tab character
+13. **fmt.Println("Hello World"[1])** -  yields 101 - because the line says, "give me the index 1 or position 2 element from the string, and the element is represented by a byte (integer)
+14. **Boolean** - named after George Boole, is a special 1 bit integer type used to represent true and false (or on and off)
+15. Three logical operators are used with boolean values:
+  - && - and
+  - || - or
+  - ! - not
+  ---
 
 ### Chapter 4 - Variables
 
