@@ -83,10 +83,29 @@ by Caleb Doxsey
 
 ### Chapter 5 - Control Structures
 
+1. **for**
+2. **if**
+3. **switch - case**
+
 ---
 
 ### Chapter 6 - Arrays, Slices and Maps
 
+1. **array** - an array is a numbered sequence of a single type with a fixed length.  In Go, they look like this
+  - var x \[5\]int - x is an example of an array which is composed of 5 ints
+2.
+```go
+var total float64 = 0
+for _, value := range x {
+  total += value
+}
+fmt.Println(total / float64(len(x)))
+```
+  - the single underscore tells the compiler that we do not need this
+  - float64() converts the len(x) integer into a float
+3. Go also provides a shorter syntax for creating arrays:
+  - x := \[5\]float64{ 98, 93, 77, 82, 83 }
+  
 ---
 
 ### Chapter 7 - Functions
