@@ -199,18 +199,25 @@ type Circle struct {
   - channel can have direction restricting it to send or receive:
     - c chan<- string   c can only be sent to
     - c <-chan string   c can only send
+6. **select** - works like switch but for channels
+  - select is often usied to implement a timeout
+
 ---
 
 ### Chapter 11 - Packages
 
+1. To import a package with an alias use:
+  - import a "path" where a is the alias for package at "path"
+2. In Go, if something starts with a capital letter that means other packages (and programs) are able to see it
+3. If you run go install in a package folder, then r-run the godoc command, you should see the man pages for your package
+4. Godocs are also available at godoc -http=":6060" / then go to http://localhost:6060/pkg/
 ---
 
 ### Chapter 12 - Testing
 
+1. **No notes**
 ---
 
 ### Chapter 13 - The Core Packages
 
----
-
-### Chapter 14 - Next Steps
+1. **No notes**
