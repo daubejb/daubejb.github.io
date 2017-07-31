@@ -140,20 +140,65 @@ fmt.Println(total / float64(len(x)))
   - we can also pass in a slice of int's by passing in __xs...__
 3. It is possible to create functions inside of functions -- a function like this together with non-local variables it references is know as closure
   - one way to use closure is by writing a fucntion which returns another function which - when called - can generate a sequence of numbers
-
+4. **Recursion** - In Go, a function is able to call itself.
+5. **defer** - Go has a special statement which schedules a function call to be run after the function completes.  One example of its use is:
+  - defer f.Close():
+    - when using a file, this way the open and close can be close together
+    - if our function has multiple return statements, close would happen before any and all of them
+    - deferred functions are run even if a run-time panic occurs
+6. **panic and recover** - recover stops the run-time panic and returns the value that was passed to the call to panic
+  - pair recover with defer to ensure it runs if panic ensues
   
 ---
 
 ### Chapter 8 - Pointers
 
+1. When we call a function that takes an argument, that argument is copied to the function
+2. **Pointer** - refers to a location in memory where a value is stored rather than the value itself.
+  - \*int is the way to say that the int is a point
+  - \*xPtr is the way to deference a pointer and access the value that the pointer points to
+3. & operator finds the address of the variable
+4. Another way to get a pointer is to use the built-in _new_ function
+
 ---
 
 ### Chapter 9 - Structs and Interfaces
+
+1. **struct** - is a type which contains named fileds. example:
+```Go
+type Circle struct {
+  x float64
+  y float64
+  r float64
+}
+```
+2. c := new(Circle) - allocations memory for all the fields, sets each of them to their zero value, 0, 0.0 "" and/or nil
+3. Arguments are always copied in Go
+4. **Methods** - inbetween the func and the name of the function there is a "receiver"
+  - func (c \*Circle) area() float64 {
+      return math.Pi \* c.r\*c.r
+    }
+5. **Embedded types** - defining a Type with a singular anonymous field
+6. **interface** - is created in Go using a named Type _interface_
+  - instead of defining fields in interfaces, we define a "method set"
+7. **Method set** - is a list of methods that a type must have in order to "implement" the interface
 
 ---
 
 ### Chapter 10 - Concurrency
 
+1. **concurrency** - making progress on more than one task simultaneously
+2. Go has rich support for concurrency using goroutines and channesl
+3. **goroutine** - is a function that is capable of running concurrently with other functions
+4. To create a goroutine, use the keyword _go_ followed by a function invocation
+5. **channels** - provide a way for two goroutines to communicate with one another and synchronize their execution
+  - a channel is indicated with the keyword _chan_ followed by the type of the things that are passed on the channel
+  - the <- (left arrow) operator is used to send and receive messages on the channel
+  - **c <- "ping"** - means send "ping"
+  - **msg := <- c** means receive a message and store it in msg
+  - channel can have direction restricting it to send or receive:
+    - c chan<- string   c can only be sent to
+    - c <-chan string   c can only send
 ---
 
 ### Chapter 11 - Packages
