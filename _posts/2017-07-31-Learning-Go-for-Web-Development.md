@@ -45,9 +45,10 @@ func () {
 7. **Make sqlite3 dev database**
 ```bash
 sqlite3 dev.db
-'''
+```
+
 8. The Go sql package relies on us selecting a driver
 ```bash
 go get github.com/mattn/go-sqlite3
 ```
-9. 
+9.  
